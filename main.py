@@ -21,6 +21,7 @@ test_df['label'] = label_encoder.transform(test_df['label'])
 
 # Tokenize the text
 tokenizer = Tokenizer(num_words=5000)
+print(tokenizer)
 tokenizer.fit_on_texts(train_df['text'])
 train_sequences = tokenizer.texts_to_sequences(train_df['text'])
 test_sequences = tokenizer.texts_to_sequences(test_df['text'])

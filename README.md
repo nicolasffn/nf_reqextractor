@@ -39,7 +39,8 @@ phrases = [
 ]
 
 for phrase in phrases:
-    print(f"Input: {phrase}\nPrediction: {predict_requirement(phrase)}")
+    result = predict_requirement(phrase)
+    print(f"Input: {phrase}\nPrediction: {result[0]}\nConfidence: {result[1]}")
 ```
 
 ## Explaination
@@ -71,7 +72,7 @@ train_df['label'] = label_encoder.fit_transform(train_df['label'])
 test_df['label'] = label_encoder.transform(test_df['label'])
 ```
 
-1. `df = pd.read_csv('./assets/csv/requirements.csv')`: Read the CSV file into a Pandas dataframe.
+1. `df = pd.read_csv('./assets/csv/requirements.csv')`: Read the CSV file into a Pandas dataframe. (A pandas dataframe is a two-dimensional size-mutable, heterogeneous data structure with labeled axes (rows and columns) in Python. It is a data structure that can handle and process large amounts of data, and is widely used in data analysis and manipulation.)
 2. `train_df, test_df = train_test_split(df, test_size=0.2)`: Split the data into training and testing sets, with 80% of the data for training and 20% for testing.
 3. `label_encoder = LabelEncoder(); train_df['label'] = label_encoder.fit_transform(train_df['label'])`: Encode the labels as integers, by creating a `LabelEncoder` object and fitting it to the training labels.
 4. `test_df['label'] = label_encoder.transform(test_df['label'])`: Transform the testing labels using the same `LabelEncoder` object.
