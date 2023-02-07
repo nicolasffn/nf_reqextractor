@@ -71,6 +71,11 @@ train_df['label'] = label_encoder.fit_transform(train_df['label'])
 test_df['label'] = label_encoder.transform(test_df['label'])
 ```
 
+1. `df = pd.read_csv('./assets/csv/requirements.csv')`: Read the CSV file into a Pandas dataframe.
+2. `train_df, test_df = train_test_split(df, test_size=0.2)`: Split the data into training and testing sets, with 80% of the data for training and 20% for testing.
+3. `label_encoder = LabelEncoder(); train_df['label'] = label_encoder.fit_transform(train_df['label'])`: Encode the labels as integers, by creating a `LabelEncoder` object and fitting it to the training labels.
+4. `test_df['label'] = label_encoder.transform(test_df['label'])`: Transform the testing labels using the same `LabelEncoder` object.
+
 Part 3: Tokenizes the text data and pads the sequences to the same length. The labels are also converted to one-hot encoded arrays.
 ```# Tokenize the text
 tokenizer = Tokenizer(num_words=5000)
