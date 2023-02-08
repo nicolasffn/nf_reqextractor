@@ -1,3 +1,16 @@
+# NF_REQEXTRACTOR V0.0.1
+
+## Requirements
+The following libraries must be installed to run this project:
+- pandas
+- numpy
+- scikit-learn
+- tensorflow
+- keras
+
+## Usage
+The following code reads the CSV file of software requirements and preprocesses the data for training and testing the model. The data is split into training and testing sets, encoded as integers, tokenized, and padded to the same length. The model architecture is defined, compiled, and trained on the training data. The function predict_requirement takes a text as input and returns the predicted label.
+
 ## Results
 The model was trained for XX epochs and reached a binary accuracy of XX on the test data.
 The results of the model on a set of sample inputs are provided below.
