@@ -21,7 +21,7 @@ if __name__ == "__main__":
     df = pd.read_csv('./assets/csv/requirements_bis.csv')
 
     # Split the data into training and testing sets
-    train_df, test_df = train_test_split(df, test_size=0.3)
+    train_df, test_df = train_test_split(df, test_size=0.2)
 
     # Encode the labels as integers
     label_encoder = LabelEncoder()
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
     # Train the model
-    model.fit(train_data, train_labels, epochs=250, batch_size=1109, validation_data=(test_data, test_labels))
+    model.fit(train_data, train_labels, epochs=275, batch_size=1188, validation_data=(test_data, test_labels))
 
     # Make predictions on the test set and calculate metrics
     y_true = np.argmax(test_labels, axis=1)

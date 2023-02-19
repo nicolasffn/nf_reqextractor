@@ -18,7 +18,7 @@ if __name__ == "__main__":
     utilities.download('universal_tagset')
 
     # read the requirements.csv file into a dataframe
-    df = pd.read_csv('./assets/csv/requirements.csv')
+    df = pd.read_csv('./assets/csv/requirements_bis.csv')
     
     # get the sentences and labels from the dataframe
     sentences = df['text'].tolist()
@@ -35,10 +35,10 @@ if __name__ == "__main__":
             syntax = syntax + entity[0] + ' '
         df_temp = pd.DataFrame({'label': [labels[i]], 'sentence': [sentence], 'syntax': [syntax]})
         df_results = pd.concat([df_results, df_temp], ignore_index=True)
-    df_results.to_csv('./assets/csv/results.csv', index=False)
+    df_results.to_csv('./assets/csv/results_bis.csv', index=False)
 
     # Read the CSV file into a dataframe
-    df = pd.read_csv('./assets/csv/results.csv')
+    df = pd.read_csv('./assets/csv/results_bis.csv')
 
     # Split the data into training and testing sets
     train_df, test_df = train_test_split(df, test_size=0.2)
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
     # Train the model
-    model.fit(train_data, train_labels, epochs=250, batch_size=535, validation_data=(test_data, test_labels))
+    model.fit(train_data, train_labels, epochs=200, batch_size=1188, validation_data=(test_data, test_labels))
 
     # Make predictions on the test set and calculate metrics
     y_true = np.argmax(test_labels, axis=1)
