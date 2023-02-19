@@ -1,4 +1,125 @@
 label,text
+A,The system shall have a backup and recovery plan in case of a system failure.
+A,The system shall automatically backup user data every 24 hours.
+A,The system shall have a disaster recovery plan in case of a natural disaster or other catastrophic event.
+A,The system shall be able to recover from a failure within 30 minutes.
+PE,The system shall be able to handle a load of 1000 simultaneous users with a response time of less than 2 seconds.
+PE,The system shall be able to handle 1000 search requests per minute with a response time of less than 1 second per request.
+PE,The system shall be able to generate a CMA report in less than 5 seconds.
+PE,The system shall be able to synchronize with the office system within 5 minutes of an update being made.
+PE,The system shall be able to handle data volumes of up to 1 terabyte.
+SC,The system shall be able to handle a growth in user base of up to 5 times the existing user base within the next year.
+SC,The system shall be able to handle a growth in data volume of up to 5 times the existing data volume within the next year.
+SE,The system shall require user authentication for all access attempts.
+SE,The system shall encrypt all sensitive user data during transmission and storage.
+SE,The system shall log all access attempts and modifications made to the system or its data.
+SE,The system shall have a firewall in place to prevent unauthorized access.
+SE,The system shall have a virus scanner in place to prevent malware infections.
+LF,The user interface shall be consistent across all platforms and devices.
+LF,The user interface shall be designed with accessibility in mind.
+LF,The user interface shall be responsive and adapt to different screen sizes.
+LF,The user interface shall be visually appealing and easy to navigate.
+US,The system shall provide clear and concise instructions for all features and functions.
+US,The system shall provide tooltips or other forms of contextual help where appropriate.
+US,The system shall provide a search function to easily find specific features or functions.
+US,The system shall provide feedback to the user when an action is taken or a process is completed.
+US,The system shall be able to be used by users with varying levels of technical proficiency.
+US,The system shall be able to be used by users with visual or hearing impairments.
+L,The system shall comply with all relevant data privacy laws and regulations.
+L,The system shall comply with all relevant security standards and guidelines.
+L,The system shall comply with all relevant industry standards and guidelines.
+L,The system shall comply with all relevant accessibility standards and guidelines.
+A,The system shall have a documented maintenance plan that outlines regular updates and patches.
+A,The system shall be able to be updated without interrupting service to users.
+A,The system shall have a downtime window of less than 2 hours per month for maintenance and updates.
+A,The system shall provide advance notice of scheduled maintenance and updates to users.
+PE,The system shall be able to process large data imports within a reasonable time frame.
+PE,The system shall be able to export data in a variety of formats.
+PE,The system shall have an API for integration with third-party systems.
+SC,The system shall be able to handle a geographically distributed user base.
+SC,The system shall be able to handle a geographically distributed data center.
+SE,The system shall have a password policy in place that requires strong passwords and periodic resets.
+SE,The system shall have two-factor authentication available for users.
+SE,The system shall automatically lock out users after a certain number of failed login attempts.
+PE,The system shall refresh the display every 60 seconds.
+LF,The application shall match the color of the schema set forth by Department of Homeland Security
+US,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30
+A,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.
+US,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
+SE,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts
+US,The product shall be intuitive and self-explanatory. : 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.
+PE,The product shall respond fast to keep up-to-date data in the display.
+LF,The system shall conform to the user interface standards of the smart device.
+LF,The user interface shall have standard menus buttons for navigation
+LF,The system shall have a professional appearance
+LF,The product shall have a consistent color scheme and fonts.
+US,The system shall be used by realtors with no training.
+US,The system shall be intuitive and self explanatory.
+US,The product shall be easy for a realtor to learn.
+US,The product shall use symbols and words that are naturally understandable by the realtor community.
+PE,The product shall produce search results in an acceptable time
+PE,The search results shall be returned no later 30 seconds after the user has entered the search criteria
+PE,The product shall generate a CMA report in an acceptable time.
+PE,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.
+PE,The product shall synchronize contacts and appointments in an acceptable time.
+PE,The product shall synchronize with the office system every hour.
+A,The product shall be available for use 24 hours per day 365 days per year
+A,Out of 1000 accesses to the system the system is available 999 times.
+SC,The product shall be able to support multiple remote users
+SC,The product shall be able support 1000 simultaneous users.
+SC,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.
+US,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.
+US,90% of untrained realtors shall be able to install the product on their device without printed instructions
+US,The system shall be usable by individuals with varying levels of technical proficiency.
+US,The system shall be able to adapt to the user's preferred language or locale.
+SE,The product shall store and transmit data securely using encryption protocols.
+SE,The system shall authenticate users before allowing access to sensitive data or features.
+SE,The system shall log all user activity for security and auditing purposes.
+SE,The system shall automatically lock the user account after a certain number of unsuccessful login attempts.
+PE,The system shall be able to handle a minimum of 1000 concurrent users.
+PE,The system shall load search results within 5 seconds of the user submitting the query.
+F,The system shall allow users to sort data in ascending or descending order.
+F,The system shall provide users with the ability to export data in CSV format.
+A,The system shall have a maximum downtime of 1 hour per month for scheduled maintenance.
+A,The system shall have a disaster recovery plan in place in case of unexpected downtime or system failure.
+L,The system shall comply with all applicable data protection laws including GDPR and CCPA.
+LF,The user interface shall be designed with a modern and clean aesthetic.
+LF,The system shall use a consistent design language throughout the application.
+PE,The system shall be able to handle a minimum of 100 simultaneous users without any noticeable decrease in performance.
+PE,The system shall respond to user requests within 2 seconds.
+SC,The system shall be able to scale to support up to 10000 simultaneous users.
+SC,The system shall be able to handle a 10-fold increase in data volume without any degradation in performance.
+SE,All user data shall be encrypted both in transit and at rest.
+SE,The system shall use multi-factor authentication for all user accounts.
+US,The system shall provide clear and concise error messages in case of user input errors.
+US,The system shall be designed with a logical and intuitive user flow.
+F,The system shall provide users with the ability to search for specific data within the application.
+F,The system shall have a dashboard that displays key performance indicators in real time.
+A,The system shall be available to users 99.9% of the time.
+A,The system shall be able to recover from a failure within 1 hour.
+L,The system shall comply with all relevant accessibility laws including WCAG 2.1.
+LF,The system shall be designed to be responsive and optimized for use on mobile devices.
+LF,The system shall use standard UI components to ensure consistency and familiarity for users.
+PE,The system shall be able to handle 1 million records without any noticeable decrease in performance.
+PE,The system shall be able to generate reports within 5 seconds.
+SC,The system shall be able to scale to support up to 100000 simultaneous users.
+SC,The system shall be able to handle a 100-fold increase in data volume without any degradation in performance.
+SE,All user passwords shall be hashed and salted before being stored in the database.
+SE,The system shall have audit logs that record all user actions and system events.
+US,The system shall provide users with the ability to undo or redo actions.
+US,The system shall use clear and concise language in all user-facing text.
+F,The system shall provide users with the ability to filter data based on specific criteria.
+F,The system shall provide users with the ability to create custom views of data.
+A,The system shall have a response time of no more than 3 seconds for all user requests.
+A,The system shall have a backup and recovery plan in place in case of data loss or corruption.
+L,The system shall comply with all relevant export control laws and regulations.
+LF,The system shall be designed to be intuitive for users with varying levels of technical expertise.
+LF,The system shall use color and typography consistently throughout the application.
+PE,The system shall be able to handle 10000 requests per second without any noticeable decrease in performance.
+PE,The system shall be able to perform complex calculations in real time.
+SC,The system shall be able to scale to support up to 1 million simultaneous users.
+SC,The system shall be able to handle a 1000-fold increase in data volume without any degradation in performance.
+SE,The system shall use TLS encryption for all network communication.
 US,The system shall provide clear and concise information on product availability and estimated delivery times.
 PE,The system shall use content compression techniques to reduce the amount of data that needs to be transmitted over the network.
 F,The system shall allow users to create and save custom filters for product searches.
