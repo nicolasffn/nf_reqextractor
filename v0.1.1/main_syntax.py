@@ -26,16 +26,16 @@ if __name__ == "__main__":
 
     # use the list of sentences to call the process_text function 
     # and write the result to a csv file
-    # df_results = pd.DataFrame(columns=['label', 'sentence', 'syntax'])
-    # for i, sentence in enumerate(sentences):
-    #     print(i)
-    #     entities = process_text(sentence)
-    #     syntax = ''
-    #     for entity in entities:
-    #         syntax = syntax + entity[0] + ' '
-    #     df_temp = pd.DataFrame({'label': [labels[i]], 'sentence': [sentence], 'syntax': [syntax]})
-    #     df_results = pd.concat([df_results, df_temp], ignore_index=True)
-    # df_results.to_csv('./assets/csv/results.csv', index=False)
+    df_results = pd.DataFrame(columns=['label', 'sentence', 'syntax'])
+    for i, sentence in enumerate(sentences):
+        print(i)
+        entities = process_text(sentence)
+        syntax = ''
+        for entity in entities:
+            syntax = syntax + entity[0] + ' '
+        df_temp = pd.DataFrame({'label': [labels[i]], 'sentence': [sentence], 'syntax': [syntax]})
+        df_results = pd.concat([df_results, df_temp], ignore_index=True)
+    df_results.to_csv('./assets/csv/results.csv', index=False)
 
     # Read the CSV file into a dataframe
     df = pd.read_csv('./assets/csv/results.csv')

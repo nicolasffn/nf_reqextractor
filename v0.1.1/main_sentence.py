@@ -18,17 +18,10 @@ if __name__ == "__main__":
     utilities.download('universal_tagset')
 
     # read the requirements.csv file into a dataframe
-    df = pd.read_csv('./assets/csv/requirements.csv')
-    
-    # get the sentences and labels from the dataframe
-    sentences = df['text'].tolist()
-    labels = df['label'].tolist()
-
-    # Read the CSV file into a dataframe
-    df = pd.read_csv('./assets/csv/results.csv')
+    df = pd.read_csv('./assets/csv/requirements_bis.csv')
 
     # Split the data into training and testing sets
-    train_df, test_df = train_test_split(df, test_size=0.2)
+    train_df, test_df = train_test_split(df, test_size=0.3)
 
     # Encode the labels as integers
     label_encoder = LabelEncoder()
@@ -37,9 +30,9 @@ if __name__ == "__main__":
 
     # Tokenize the text
     tokenizer = Tokenizer(num_words=5000)
-    tokenizer.fit_on_texts(train_df['sentence'])
-    train_sequences = tokenizer.texts_to_sequences(train_df['sentence'])
-    test_sequences = tokenizer.texts_to_sequences(test_df['sentence'])
+    tokenizer.fit_on_texts(train_df['text'])
+    train_sequences = tokenizer.texts_to_sequences(train_df['text'])
+    test_sequences = tokenizer.texts_to_sequences(test_df['text'])
 
     # Pad the sequences to the same length
     max_length = max([len(s) for s in train_sequences + test_sequences])
@@ -59,7 +52,7 @@ if __name__ == "__main__":
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
     # Train the model
-    model.fit(train_data, train_labels, epochs=250, batch_size=535, validation_data=(test_data, test_labels))
+    model.fit(train_data, train_labels, epochs=250, batch_size=1109, validation_data=(test_data, test_labels))
 
     # Make predictions on the test set and calculate metrics
     y_true = np.argmax(test_labels, axis=1)
