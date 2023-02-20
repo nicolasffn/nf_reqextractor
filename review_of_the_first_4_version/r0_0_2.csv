@@ -1,0 +1,7 @@
+﻿loss,optimizer,metrics,epochs,batch_size,F,A,L,LF,PE,SC,SE,US,TOTAL /24
+categorical_crossentropy,adam,accuracy,150,535,1,1,1,2,0,0,2,1,8
+categorical_crossentropy,adam,accuracy,250,535,2,1,1,1,0,1,1,1,8
+categorical_crossentropy,adam,accuracy,350,535,1,1,1,0,1,1,2,0,7
+categorical_crossentropy,adam,binary_accuracy,100,535,1,1,0,2,0,1,2,0,7
+categorical_crossentropy,adam,binary_accuracy,150,535,1,1,1,2,1,1,1,0,8
+categorical_crossentropy,adam,binary_accuracy,250,535,1,1,1,2,1,0,2,1,9

@@ -1,0 +1,2 @@
+﻿loss,optimizer,metrics,epochs,batch_size,test_size,F,A,L,LF,PE,SC,SE,US,TOTAL /16
+categorical_crossentropy,adam,binary_accuracy,275,1188,0,2,2,2,2,2,2,2,2,1,15
