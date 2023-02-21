@@ -1,0 +1,1189 @@
+label,text
+PE,The product shall provide search results in less than 10 seconds.
+A,The product shall be available for use at all times- except during scheduled maintenance.
+A,The product shall be available for use at all times- with a maximum downtime of 10 minutes per month for unscheduled maintenance.
+SE,The product shall store user data securely in a centralized database with proper encryption and access controls.
+US,The user interface shall be designed with the end-user in mind- ensuring a simple and intuitive experience.
+US,The product shall provide on-screen guidance for all new features or functionality.
+PE,The system shall process a minimum of 100 transactions per second with an average response time of less than 1 second.
+SC,The product shall scale to support a minimum of 10000 users without impacting performance or response time.
+SC,The product shall scale to support a minimum of 100000 data records without impacting performance or response time.
+US,The product shall be accessible to users with disabilities in compliance with relevant accessibility standards.
+LF,The product shall adhere to the visual style and branding of our company including specific color schemes and typography.
+US,The product shall be compatible with a variety of screen sizes and resolutions including desktop and mobile devices.
+PE,The product shall be capable of handling peak traffic volumes estimated to be twice the average volume during seasonal sales events.
+SE,The product shall implement role-based access control to ensure that only authorized users can perform certain actions or access specific data.
+PE,The product shall generate reports and analytics within 30 seconds of the user's request.
+US,The product shall provide a knowledge base or help center with frequently asked questions and troubleshooting information.
+US,The product shall provide a user manual or documentation with detailed instructions for all features and functionality.
+SC,The product shall support at least 5 simultaneous sessions per user without impacting performance or response time.
+SE,The product shall implement two-factor authentication for users accessing sensitive data or performing critical actions.
+US,The product shall allow for customization and personalization of the user experience such as customizing dashboard views or setting up alerts.
+US,The product shall provide clear and concise error messages for any issues encountered by the user.
+PE,The system shall be capable of handling a large volume of file uploads and downloads with a maximum file size of 100 MB.
+US,The product shall provide real-time updates and notifications for any relevant events or activities.
+SE,The product shall implement data backup and disaster recovery procedures to ensure data can be restored in case of system failure or data loss.
+US,The product shall provide a user-friendly way to search and filter data such as using keywords or tags.
+LF,The product shall follow the industry-standard conventions for iconography and button design including placement and color.
+PE,The product shall process credit card transactions securely and in compliance with PCI-DSS standards.
+SC,The product shall support at least 1000 simultaneous users without impacting performance or response time.
+A,The product shall be available for use during business hours with a maximum downtime of 1 hour per week for scheduled maintenance.
+PE,The product shall be capable of handling up to 1000 concurrent database connections without impacting performance or response time.
+US,The product shall provide the ability to easily export or download data for further analysis or reporting.
+SE,The product shall implement monitoring and alerting for any unusual activity or potential security threats.
+US,The product shall provide the ability to create and save custom reports or dashboards for easy access to frequently used data.
+PE,The product shall be capable of handling up to 10000 concurrent API requests without impacting performance or response
+A,The system shall be available for use 24 hours per day 7 days per week.
+A,The system shall have a maximum downtime of 5 minutes per month for routine maintenance.
+A,The system shall have a failover mechanism in place to ensure continuous availability.
+A,The system shall automatically recover from errors without user intervention.
+A,The system shall be accessible from both desktop and mobile devices.
+A,The system shall maintain data integrity and prevent data loss in the event of system failure.
+A,The system shall provide backup and restore functionality.
+L,The system shall comply with all applicable data protection and privacy laws.
+L,The system shall have mechanisms in place to protect confidential data from unauthorized access.
+L,The system shall adhere to all relevant industry standards and regulations.
+LF,The system shall have a clean and modern interface.
+LF,The system shall have a responsive design that adjusts to different screen sizes.
+LF,The system shall use consistent and intuitive navigation.
+LF,The system shall use clear and concise language in its interface.
+PE,The system shall load pages in under 2 seconds.
+PE,The system shall be able to handle a minimum of 100 concurrent users.
+PE,The system shall have a maximum response time of 3 seconds for user requests.
+PE,The system shall be able to process a minimum of 100 transactions per minute.
+PE,The system shall have a maximum error rate of 0.5% for user requests.
+SC,The system shall be able to handle a minimum of 10000 concurrent users.
+SC,The system shall be able to handle a minimum of 1 million data records.
+SC,The system shall have a scalable architecture that can be easily expanded as needed.
+SC,The system shall use load balancing to distribute traffic evenly across servers.
+SE,The system shall use encryption to protect sensitive data in transit.
+SE,The system shall have a password policy that requires strong passwords.
+SE,The system shall have a mechanism for user authentication and authorization.
+SE,The system shall have a logging mechanism to track user activity and system events.
+US,The system shall provide clear and concise error messages to users.
+US,The system shall provide helpful guidance and feedback to users.
+US,The system shall be easy to learn and use for new users.
+US,The system shall allow users to customize their settings and preferences.
+US,The system shall have a help section with detailed instructions and FAQs.
+A,The system shall be able to handle a minimum of 10000 requests per hour.
+A,The system shall have a minimum uptime of 99.9% per month.
+A,The system shall have a disaster recovery plan in place to minimize downtime in the event of a disaster.
+L,The system shall comply with all relevant intellectual property laws and regulations.
+L,The system shall have a mechanism for handling copyright infringement claims.
+LF,The system shall have a consistent design across all pages and sections.
+LF,The system shall use clear and simple language in all user-facing content.
+LF,The system shall use appropriate fonts- colors- and graphics to enhance usability and readability.
+PE,The system shall be able to handle a minimum of 10000 database queries per second.
+PE,The system shall have a maximum page load time of 5 seconds for users with a slow internet connection.
+PE,The system shall have a minimum response time of 1 second for user requests.
+PE,The system shall have a mechanism for monitoring and alerting administrators to performance issues.
+SC,The system shall be able to handle a minimum of 1 million concurrent users.
+A,The system shall be available for use 24 hours per day 7 days per week.
+A,The system shall have a maximum downtime of 5 minutes per month for routine maintenance.
+A,The system shall have a failover mechanism in place to ensure continuous availability.
+A,The system shall automatically recover from errors without user intervention.
+A,The system shall be accessible from both desktop and mobile devices.
+A,The system shall maintain data integrity and prevent data loss in the event of system failure.
+A,The system shall provide backup and restore functionality.
+L,The system shall comply with all applicable data protection and privacy laws.
+L,The system shall have mechanisms in place to protect confidential data from unauthorized access.
+L,The system shall adhere to all relevant industry standards and regulations.
+LF,The system shall have a clean and modern interface.
+LF,The system shall have a responsive design that adjusts to different screen sizes.
+LF,The system shall use consistent and intuitive navigation.
+LF,The system shall use clear and concise language in its interface.
+PE,The system shall load pages in under 2 seconds.
+PE,The system shall be able to handle a minimum of 100 concurrent users.
+PE,The system shall have a maximum response time of 3 seconds for user requests.
+PE,The system shall be able to process a minimum of 100 transactions per minute.
+PE,The system shall have a maximum error rate of 0.5% for user requests.
+SC,The system shall be able to handle a minimum of 10000 concurrent users.
+SC,The system shall be able to handle a minimum of 1 million data records.
+SC,The system shall have a scalable architecture that can be easily expanded as needed.
+SC,The system shall use load balancing to distribute traffic evenly across servers.
+SE,The system shall use encryption to protect sensitive data in transit.
+SE,The system shall have a password policy that requires strong passwords.
+SE,The system shall have a mechanism for user authentication and authorization.
+SE,The system shall have a logging mechanism to track user activity and system events.
+US,The system shall provide clear and concise error messages to users.
+US,The system shall provide helpful guidance and feedback to users.
+US,The system shall be easy to learn and use for new users.
+US,The system shall allow users to customize their settings and preferences.
+US,The system shall have a help section with detailed instructions and FAQs.
+A,The system shall be able to handle a minimum of 10000 requests per hour.
+A,The system shall have a minimum uptime of 99.9% per month.
+A,The system shall have a disaster recovery plan in place to minimize downtime in the event of a disaster.
+L,The system shall comply with all relevant intellectual property laws and regulations.
+L,The system shall have a mechanism for handling copyright infringement claims.
+LF,The system shall have a consistent design across all pages and sections.
+LF,The system shall use clear and simple language in all user-facing content.
+LF,The system shall use appropriate fonts colors and graphics to enhance usability and readability.
+PE,The system shall be able to handle a minimum of 10000 database queries per second.
+PE,The system shall have a maximum page load time of 5 seconds for users with a slow internet connection.
+PE,The system shall have a minimum response time of 1 second for user requests.
+PE,The system shall have a mechanism for monitoring and alerting administrators to performance issues.
+SC,The system shall be able to handle a minimum of 1 million concurrent users.
+A,The system shall have a backup and recovery plan to minimize data loss and ensure system availability.
+A,The system shall be able to recover from a crash or failure within one hour.
+A,The system shall have a disaster recovery plan in place to ensure business continuity in the event of a major disruption.
+A,The system shall be able to restore data from a backup within 24 hours of a loss.
+A,The system shall have redundant components to ensure high availability and minimize downtime.
+A,The system shall have automated monitoring to alert administrators of any performance or availability issues.
+A,The system shall have a maintenance schedule to ensure hardware and software components are kept up-to-date and in good working order.
+L,The system shall comply with all relevant data privacy laws and regulations.
+L,The system shall comply with all relevant security and encryption standards.
+L,The system shall comply with all relevant intellectual property laws and regulations.
+LF,The system shall have a consistent and easy-to-use interface for all users.
+LF,The system shall have customizable interface options to allow users to personalize their experience.
+LF,The system shall have a modern and visually appealing design to encourage user adoption.
+LF,The system shall have clear and concise labeling and descriptions for all features and functions.
+PE,The system shall be able to handle a minimum of 10000 concurrent users.
+PE,The system shall be able to process at least 1000 transactions per second.
+PE,The system shall be able to load large amounts of data quickly and efficiently.
+PE,The system shall have an average response time of less than 500 milliseconds.
+PE,The system shall be able to handle spikes in traffic and usage without slowing down or crashing.
+SC,The system shall be able to scale to accommodate at least 100000 concurrent users.
+SC,The system shall be able to scale horizontally and vertically to handle increased load and demand.
+SC,The system shall have a load balancer to distribute traffic evenly across multiple servers.
+SC,The system shall have a distributed architecture to handle increased volume and ensure high availability.
+SE,The system shall have user authentication and authorization to control access to data and functions.
+SE,The system shall have encryption for sensitive data in transit and at rest.
+SE,The system shall have firewalls and intrusion detection systems to protect against attacks and unauthorized access.
+SE,The system shall have logging and auditing to track user activity and detect suspicious behavior.
+US,The system shall be easy to learn and use for all users- regardless of technical skill level.
+US,The system shall have clear and concise instructions for all features and functions.
+US,The system shall have contextual help and guidance to assist users when needed.
+US,The system shall have intuitive and consistent navigation to facilitate user interaction.
+US,The system shall have accessibility features to accommodate users with disabilities.
+US,The system shall have multilingual support to accommodate users in different regions and languages.
+US,The system shall have a mobile app or responsive design to allow users to access the system from any device.
+US,The system shall have offline capabilities to allow users to work without an internet connection.
+US,The system shall have a search function to allow users to easily find data and information.
+US,The system shall have keyboard shortcuts and other efficiency features to speed up common tasks.
+US,The system shall have the ability to customize settings and preferences to suit individual user needs.
+US,The system shall have the ability to undo and redo actions to minimize errors and improve productivity.
+US,The system shall have the ability to import and export data to allow for easy integration with other systems.
+A,The system shall have a backup and recovery plan in case of a system failure.
+A,The system shall automatically backup user data every 24 hours.
+A,The system shall have a disaster recovery plan in case of a natural disaster or other catastrophic event.
+A,The system shall be able to recover from a failure within 30 minutes.
+PE,The system shall be able to handle a load of 1000 simultaneous users with a response time of less than 2 seconds.
+PE,The system shall be able to handle 1000 search requests per minute with a response time of less than 1 second per request.
+PE,The system shall be able to generate a CMA report in less than 5 seconds.
+PE,The system shall be able to synchronize with the office system within 5 minutes of an update being made.
+PE,The system shall be able to handle data volumes of up to 1 terabyte.
+SC,The system shall be able to handle a growth in user base of up to 5 times the existing user base within the next year.
+SC,The system shall be able to handle a growth in data volume of up to 5 times the existing data volume within the next year.
+SE,The system shall require user authentication for all access attempts.
+SE,The system shall encrypt all sensitive user data during transmission and storage.
+SE,The system shall log all access attempts and modifications made to the system or its data.
+SE,The system shall have a firewall in place to prevent unauthorized access.
+SE,The system shall have a virus scanner in place to prevent malware infections.
+LF,The user interface shall be consistent across all platforms and devices.
+LF,The user interface shall be designed with accessibility in mind.
+LF,The user interface shall be responsive and adapt to different screen sizes.
+LF,The user interface shall be visually appealing and easy to navigate.
+US,The system shall provide clear and concise instructions for all features and functions.
+US,The system shall provide tooltips or other forms of contextual help where appropriate.
+US,The system shall provide a search function to easily find specific features or functions.
+US,The system shall provide feedback to the user when an action is taken or a process is completed.
+US,The system shall be able to be used by users with varying levels of technical proficiency.
+US,The system shall be able to be used by users with visual or hearing impairments.
+L,The system shall comply with all relevant data privacy laws and regulations.
+L,The system shall comply with all relevant security standards and guidelines.
+L,The system shall comply with all relevant industry standards and guidelines.
+L,The system shall comply with all relevant accessibility standards and guidelines.
+A,The system shall have a documented maintenance plan that outlines regular updates and patches.
+A,The system shall be able to be updated without interrupting service to users.
+A,The system shall have a downtime window of less than 2 hours per month for maintenance and updates.
+A,The system shall provide advance notice of scheduled maintenance and updates to users.
+PE,The system shall be able to process large data imports within a reasonable time frame.
+PE,The system shall be able to export data in a variety of formats.
+PE,The system shall have an API for integration with third-party systems.
+SC,The system shall be able to handle a geographically distributed user base.
+SC,The system shall be able to handle a geographically distributed data center.
+SE,The system shall have a password policy in place that requires strong passwords and periodic resets.
+SE,The system shall have two-factor authentication available for users.
+SE,The system shall automatically lock out users after a certain number of failed login attempts.
+PE,The system shall refresh the display every 60 seconds.
+LF,The application shall match the color of the schema set forth by Department of Homeland Security
+US,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30
+A,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.
+US,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
+SE,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts
+US,The product shall be intuitive and self-explanatory. : 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.
+PE,The product shall respond fast to keep up-to-date data in the display.
+LF,The system shall conform to the user interface standards of the smart device.
+LF,The user interface shall have standard menus buttons for navigation
+LF,The system shall have a professional appearance
+LF,The product shall have a consistent color scheme and fonts.
+US,The system shall be used by realtors with no training.
+US,The system shall be intuitive and self explanatory.
+US,The product shall be easy for a realtor to learn.
+US,The product shall use symbols and words that are naturally understandable by the realtor community.
+PE,The product shall produce search results in an acceptable time
+PE,The search results shall be returned no later 30 seconds after the user has entered the search criteria
+PE,The product shall generate a CMA report in an acceptable time.
+PE,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.
+PE,The product shall synchronize contacts and appointments in an acceptable time.
+PE,The product shall synchronize with the office system every hour.
+A,The product shall be available for use 24 hours per day 365 days per year
+A,Out of 1000 accesses to the system the system is available 999 times.
+SC,The product shall be able to support multiple remote users
+SC,The product shall be able support 1000 simultaneous users.
+SC,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.
+US,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.
+US,90% of untrained realtors shall be able to install the product on their device without printed instructions
+US,The system shall be usable by individuals with varying levels of technical proficiency.
+US,The system shall be able to adapt to the user's preferred language or locale.
+SE,The product shall store and transmit data securely using encryption protocols.
+SE,The system shall authenticate users before allowing access to sensitive data or features.
+SE,The system shall log all user activity for security and auditing purposes.
+SE,The system shall automatically lock the user account after a certain number of unsuccessful login attempts.
+PE,The system shall be able to handle a minimum of 1000 concurrent users.
+PE,The system shall load search results within 5 seconds of the user submitting the query.
+F,The system shall allow users to sort data in ascending or descending order.
+F,The system shall provide users with the ability to export data in CSV format.
+A,The system shall have a maximum downtime of 1 hour per month for scheduled maintenance.
+A,The system shall have a disaster recovery plan in place in case of unexpected downtime or system failure.
+L,The system shall comply with all applicable data protection laws including GDPR and CCPA.
+LF,The user interface shall be designed with a modern and clean aesthetic.
+LF,The system shall use a consistent design language throughout the application.
+PE,The system shall be able to handle a minimum of 100 simultaneous users without any noticeable decrease in performance.
+PE,The system shall respond to user requests within 2 seconds.
+SC,The system shall be able to scale to support up to 10000 simultaneous users.
+SC,The system shall be able to handle a 10-fold increase in data volume without any degradation in performance.
+SE,All user data shall be encrypted both in transit and at rest.
+SE,The system shall use multi-factor authentication for all user accounts.
+US,The system shall provide clear and concise error messages in case of user input errors.
+US,The system shall be designed with a logical and intuitive user flow.
+F,The system shall provide users with the ability to search for specific data within the application.
+F,The system shall have a dashboard that displays key performance indicators in real time.
+A,The system shall be available to users 99.9% of the time.
+A,The system shall be able to recover from a failure within 1 hour.
+L,The system shall comply with all relevant accessibility laws including WCAG 2.1.
+LF,The system shall be designed to be responsive and optimized for use on mobile devices.
+LF,The system shall use standard UI components to ensure consistency and familiarity for users.
+PE,The system shall be able to handle 1 million records without any noticeable decrease in performance.
+PE,The system shall be able to generate reports within 5 seconds.
+SC,The system shall be able to scale to support up to 100000 simultaneous users.
+SC,The system shall be able to handle a 100-fold increase in data volume without any degradation in performance.
+SE,All user passwords shall be hashed and salted before being stored in the database.
+SE,The system shall have audit logs that record all user actions and system events.
+US,The system shall provide users with the ability to undo or redo actions.
+US,The system shall use clear and concise language in all user-facing text.
+F,The system shall provide users with the ability to filter data based on specific criteria.
+F,The system shall provide users with the ability to create custom views of data.
+A,The system shall have a response time of no more than 3 seconds for all user requests.
+A,The system shall have a backup and recovery plan in place in case of data loss or corruption.
+L,The system shall comply with all relevant export control laws and regulations.
+LF,The system shall be designed to be intuitive for users with varying levels of technical expertise.
+LF,The system shall use color and typography consistently throughout the application.
+PE,The system shall be able to handle 10000 requests per second without any noticeable decrease in performance.
+PE,The system shall be able to perform complex calculations in real time.
+SC,The system shall be able to scale to support up to 1 million simultaneous users.
+SC,The system shall be able to handle a 1000-fold increase in data volume without any degradation in performance.
+SE,The system shall use TLS encryption for all network communication.
+US,The system shall provide clear and concise information on product availability and estimated delivery times.
+PE,The system shall use content compression techniques to reduce the amount of data that needs to be transmitted over the network.
+F,The system shall allow users to create and save custom filters for product searches.
+A,The system shall have a process for regularly testing and validating backups to ensure data integrity.
+SC,The system shall be able to handle a 5000000% increase in user traffic during major holiday sales events.
+SE,The system shall use intrusion detection systems and other security measures to detect and prevent cyber attacks.
+LF,The system shall use clear and consistent labeling for all fields and data entry forms.
+US,The system shall provide clear and concise information on product ratings and reviews to help users make informed decisions.
+PE,The system shall use in-memory caching to improve performance for frequently-accessed data.
+F,The system shall allow users to subscribe to product alerts and notifications for price drops and availability updates.
+A,The system shall have a process for testing and validating disaster recovery plans in a simulated environment.
+SC,The system shall be able to handle a 10.000.000% increase in user traffic during major events like Black Friday.
+SE,The system shall use encryption and other security measures to protect user data from theft and unauthorized access.
+LF,The system shall use consistent spacing and margins for all elements on a page.
+US,The system shall provide clear and concise information on product warranties and return policies to help users make informed purchasing decisions.
+PE,The system shall use parallel processing and multi-threading to improve performance for computationally-intensive tasks.
+F,The system shall allow users to create and join online communities and forums to discuss products and share information.
+A,The system shall have a process for regular security training and awareness programs for employees.
+SC,The system shall be able to handle a 50000000% increase in user traffic during major events like Prime Day.
+SE,The system shall use firewalls and other security measures to protect against unauthorized network access and data breaches.
+LF,The system shall use consistent typography and font sizes for all text elements on a page.
+US,The system shall provide clear and concise information on product specifications and technical details to help users make informed decisions.
+PE,The system shall use data sharding and distributed databases to improve performance for large-scale systems.
+F,The system shall allow users to write and submit their own product reviews and ratings.
+A,The system shall have a process for regularly updating and patching software to address security vulnerabilities.
+SC,The system shall be able to handle a 100000000% increase in user traffic during major holiday sales events.
+US,The system shall provide clear and concise instructions for recovering forgotten passwords.
+PE,The system shall use predictive analytics to make personalized product recommendations to users.
+LF,The system shall use consistent spacing and alignment for all elements on a page.
+F,The system shall allow users to view and sort product reviews by date relevance and helpfulness.
+A,The system shall have a process for restoring service within 4 hours in the event of a major outage.
+SC,The system shall be able to handle a 50000% increase in user traffic during major marketing events.
+SE,The system shall enforce access controls to ensure that users can only access data that they are authorized to view.
+LF,The system shall use a consistent layout for all pages and screens with a header and footer that is the same on every page.
+US,The system shall provide clear and concise product recommendations to help users discover new items.
+PE,The system shall use machine learning algorithms to predict and prevent website crashes and errors.
+F,The system shall allow users to compare product specifications and features side-by-side.
+A,The system shall have a process for regularly testing and updating disaster recovery plans.
+SC,The system shall be able to handle a 100000% increase in user traffic during holiday sales events.
+SE,The system shall have a process for regularly testing and updating security measures.
+LF,The system shall use consistent colors and visual cues to indicate user actions and system responses.
+US,The system shall provide clear and concise shipping and return policies to help users make informed purchasing decisions.
+PE,The system shall use load balancing and auto-scaling to ensure that the system can handle fluctuating traffic levels.
+F,The system shall allow users to share product information on social media platforms.
+A,The system shall have a process for conducting regular security audits to identify vulnerabilities and risks.
+SC,The system shall be able to handle a 1000000% increase in user traffic during major marketing events.
+SE,The system shall use encryption and secure protocols to protect user data during transmission and storage.
+LF,The system shall use a consistent design for all images and product photos.
+US,The system shall provide clear and concise guidance on how to contact customer support for assistance.
+PE,The system shall use content delivery networks (CDNs) to improve page load times for users in different geographic locations.
+F,The system shall allow users to create and share product wishlists with other users.
+A,The system shall have a process for conducting regular data backups to prevent data loss in the event of a system failure.
+SC,The system shall be able to handle a 2000000% increase in user traffic during major sales events like Cyber Monday.
+SE,The system shall use multi-factor authentication for all user accounts to prevent unauthorized access.
+LF,The system shall use consistent image sizes and aspect ratios for all product photos.
+US,The system shall provide keyboard shortcuts for common tasks to increase efficiency.
+PE,The system shall be able to handle 100000 requests per minute during peak traffic.
+LF,The system shall use a clear and consistent visual hierarchy to guide users through content.
+F,The system shall allow users to save their shopping cart and return to it at a later time.
+A,The system shall have a disaster recovery plan that is tested regularly to ensure effectiveness.
+SE,The system shall have a log of all user activity that is accessible to system administrators.
+LF,The system shall have a consistent style for all buttons links and navigation elements.
+US,The system shall provide a search function that is intuitive and returns relevant results.
+PE,The system shall provide real-time updates for order status and inventory levels.
+SC,The system shall be able to handle a 1000% increase in user traffic during major events.
+SE,The system shall have a system to detect and prevent fraudulent activity such as credit card fraud.
+LF,The system shall use a consistent design for all error messages and alerts.
+F,The system shall allow users to add items to their wishlist for future reference.
+A,The system shall have a monitoring system in place to detect and resolve system issues.
+US,The system shall provide clear and concise product descriptions to help users make informed decisions.
+PE,The system shall provide instant search results as the user types in their search query.
+LF,The system shall use a font size and style that is legible for users of all ages.
+F,The system shall allow users to create and save custom searches for future use.
+A,The system shall have a process for data backup and recovery in the event of a natural disaster.
+SC,The system shall be able to handle a 2000% increase in user traffic during special promotions.
+SE,The system shall use encryption to protect sensitive data in transit and at rest.
+LF,The system shall use a consistent design for all forms and input fields.
+US,The system shall provide clear and concise guidance on how to complete common tasks.
+PE,The system shall have a maximum latency of 100ms for all user requests.
+F,The system shall allow users to view and filter product reviews by rating and relevance.
+A,The system shall have a process for testing and validating software updates before deployment.
+SC,The system shall be able to handle a 5000% increase in user traffic during major sales events.
+SE,The system shall have a process for regularly reviewing and updating security measures.
+LF,The system shall use consistent iconography for all buttons and navigation elements.
+US,The system shall provide a clear and intuitive interface for managing user preferences.
+PE,The system shall use caching to improve performance for frequently-accessed data.
+F,The system shall allow users to track their order history and status.
+A,The system shall have a process for archiving and storing historical data for auditing purposes.
+SC,The system shall be able to handle a 10000% increase in user traffic during Black Friday sales events.
+SE,The system shall require strong passwords and two-factor authentication for all user accounts.
+LF,The system shall use a responsive design that is optimized for both desktop and mobile devices.
+SE,The system shall require users to change their password every 90 days.
+LF,The system shall have a consistent layout across all pages and screens.
+US,The system shall provide clear and concise error messages to users.
+F,The system shall allow users to search for products by name- category- and price range.
+A,The system shall have a maximum downtime of 1 hour per month for scheduled maintenance.
+US,The system shall provide step-by-step guidance for complex tasks.
+LF,The system shall use a modern and visually appealing design.
+PE,The system shall load pages in under 2 seconds on a standard internet connection.
+SC,The system shall be able to handle 10000 simultaneous users without performance degradation.
+SE,The system shall require users to enter a two-factor authentication code to access sensitive data.
+LF,The system shall have a responsive design that adapts to different screen sizes.
+F,The system shall allow users to add items to their shopping cart and proceed to checkout.
+US,The system shall provide a clear and easy-to-use interface for managing user accounts.
+LF,The system shall use consistent terminology and labeling across all pages and screens.
+PE,The system shall be able to handle 1000 simultaneous requests without slowdown.
+US,The system shall provide context-sensitive help to guide users through complex tasks.
+F,The system shall allow users to filter search results by multiple criteria.
+A,The system shall have a recovery time objective of 1 hour in the event of a system failure.
+SC,The system shall be able to handle a 50% increase in user traffic during peak periods.
+SE,The system shall encrypt all sensitive data both in transit and at rest.
+LF,The system shall have a user-friendly and intuitive checkout process.
+US,The system shall provide a streamlined and efficient workflow for common tasks.
+PE,The system shall have a maximum page load time of 3 seconds on a slow internet connection.
+F,The system shall allow users to leave product reviews and ratings.
+LF,The system shall use a clear and legible font for all text.
+A,The system shall have a disaster recovery plan in place to minimize downtime.
+SC,The system shall be able to handle a 100% increase in user traffic during holiday sales events.
+SE,The system shall log all access and usage of sensitive data.
+US,The system shall provide clear and concise instructions for all user tasks.
+LF,The system shall use a consistent color scheme across all pages and screens.
+PE,The system shall be able to handle 500 simultaneous requests without slowdown.
+F,The system shall allow users to sort search results by multiple criteria.
+A,The system shall have a backup system in place to ensure data recovery in the event of a system failure.
+SC,The system shall be able to handle a 200% increase in user traffic during special promotions.
+SE,The system shall automatically log out users after a period of inactivity.
+LF,The system shall use a responsive design that is optimized for mobile devices.
+US,The system shall provide a user-friendly interface for managing user notifications.
+PE,The system shall have a maximum server response time of 1 second.
+F,The system shall allow users to compare products side-by-side.
+A,The system shall have a maximum recovery point objective of 24 hours.
+SC,The system shall be able to handle a 500% increase in user traffic during major sales events.
+SE,The system shall enforce strong password requirements for all user accounts.
+LF,The system shall use a consistent layout for all forms and input fields.
+LF,The user interface shall be consistent with the branding and design guidelines of the company.
+US,The system shall provide clear and concise error messages.
+F,The system shall allow users to save and export data in a variety of formats.
+US,The system shall have context-sensitive help available for all features.
+PE,The system shall load large files in under 5 seconds.
+F,The system shall provide real-time data visualization capabilities.
+SE,The system shall use encryption to secure all user data.
+SC,The system shall be able to handle a peak load of 10000 concurrent users.
+A,The system shall have a minimum uptime of 99.9%.
+LF,The system shall have an intuitive modern design.
+SC,The system shall be able to handle a database of 1 million records.
+F,The system shall allow users to filter data based on multiple criteria.
+PE,The system shall generate reports in under 2 minutes.
+US,The system shall have a consistent and predictable user interface.
+SE,The system shall log all user activity for auditing purposes.
+LF,The system shall use standard terminology and labeling.
+A,The system shall have redundant hardware and software components to ensure high availability.
+PE,The system shall be able to process 1000 transactions per second.
+US,The system shall be available in multiple languages.
+F,The system shall provide a search function for easy data retrieval.
+LF,The system shall use a responsive design to adapt to different screen sizes.
+SC,The system shall be able to handle a 50% increase in traffic within 6 months.
+US,The system shall have a user-friendly interface for data entry and modification.
+SE,The system shall enforce password complexity requirements.
+A,The system shall have a disaster recovery plan in place.
+PE,The system shall support batch processing of large datasets.
+LF,The system shall use a consistent color scheme throughout.
+F,The system shall allow users to create custom dashboards for data visualization.
+US,The system shall provide on-screen help for all features.
+SE,The system shall use multi-factor authentication for user login.
+LF,The system shall use intuitive icons and graphics.
+A,The system shall have a failover mechanism in case of hardware or software failure.
+PE,The system shall be able to handle 10000 concurrent user sessions.
+US,The system shall have a customizable user interface.
+SC,The system shall be able to handle a 10% increase in data volume each month.
+F,The system shall allow users to create custom reports.
+LF,The system shall have a consistent layout and navigation scheme.
+SE,The system shall have a mechanism for revoking user access.
+A,The system shall have a recovery time objective of 4 hours in case of a system failure.
+PE,The system shall be able to process 1000000 records per second.
+US,The system shall provide in-app tutorials for new users.
+LF,The system shall have a clean and modern design.
+SC,The system shall be able to handle 1000 requests per second.
+F,The system shall have a mechanism for data validation and error correction.
+PE,The system shall provide real-time analytics capabilities.
+LF,The user interface shall be easy to navigate
+US,The user shall be able to search for properties by location and price range.
+SC,The product shall be capable of handling 10000 simultaneous users.
+F,The system shall provide the ability to view the Event data from multiple views.
+US,The user shall be able to access help and support from within the system.
+LF,The product shall have a modern and sleek appearance.
+SE,The system shall prevent unauthorized access to sensitive data.
+PE,The system shall be able to process search queries within 5 seconds.
+A,The system shall have a maximum downtime of 1 hour per month.
+US,The system shall have a user-friendly interface.
+LF,The user interface shall be consistent across all pages and functions.
+US,The user shall be able to easily create and edit their profile.
+F,The system shall provide the ability to filter events by category.
+SE,The system shall use encryption to protect sensitive data.
+PE,The system shall be able to handle 1000 search requests per minute.
+LF,The product shall have a responsive design that adapts to different screen sizes.
+US,The system shall provide contextual help and guidance to the user.
+PE,The system shall provide search results within 10 seconds for searches with less than 1000 results.
+A,The system shall have a maximum downtime of 15 minutes per week.
+LF,The user interface shall be visually appealing and modern.
+SE,The system shall have multiple layers of security to prevent data breaches.
+PE,The system shall be able to handle 5000 simultaneous users.
+F,The system shall provide the ability to view events by location.
+US,The system shall provide clear and concise error messages to the user.
+SC,The system shall be able to handle a 25% increase in traffic within 3 months.
+LF,The user interface shall be intuitive and easy to use.
+PE,The system shall be able to handle 10000 search requests per minute.
+US,The system shall provide the ability to save and share search results.
+SE,The system shall have password complexity requirements to ensure strong passwords.
+A,The system shall have a maximum downtime of 5 minutes per day.
+LF,The user interface shall be customizable to meet user preferences.
+PE,The system shall provide search results within 30 seconds for searches with less than 10000 results.
+F,The system shall provide the ability to view events by time period.
+US,The system shall allow users to set their language preference.
+SC,The system shall be able to handle a 100% increase in traffic within 12 months.
+LF,The product shall have a clean and uncluttered interface.
+SE,The system shall have a secure login process with password reset functionality.
+PE,The system shall be able to handle 100000 search requests per hour.
+US,The system shall provide the ability to track and manage saved searches.
+A,The system shall have a maximum downtime of 1 minute per day.
+LF,The user interface shall be consistent with industry standards.
+F,The system shall provide the ability to view events by category and location.
+SC,The system shall be able to handle a 200% increase in traffic within 24 months.
+PE,The system shall provide search results within 2 minutes for searches with less than 1000000 results.
+US,The system shall provide the ability to compare and contrast search results.
+SE,The system shall require a user ID and password to log in
+F,The system shall allow users to customize their display preferences
+LF,The system shall display error messages in a clear and concise manner
+PE,The system shall be able to handle 1000 simultaneous searches
+SC,The system shall be able to handle a 20% increase in user traffic without degrading performance
+US,The system shall have a tutorial available for new users
+A,The system shall be available for use from any location with internet access
+F,The system shall allow users to filter data by date range
+LF,The system shall use consistent terminology throughout the user interface
+PE,The system shall load search results in less than 3 seconds
+SC,The system shall be able to handle up to 10000 simultaneous users
+SE,The system shall use SSL encryption for all data transmission
+F,The system shall allow users to sort search results by multiple criteria
+LF,The system shall use a modern and visually appealing design
+PE,The system shall be able to handle 1 million data records
+SC,The system shall be able to handle a 50% increase in user traffic without degrading performance
+US,The system shall have a responsive design that adapts to different screen sizes
+A,The system shall have a backup and recovery plan in place in case of system failure
+F,The system shall allow users to save and export search results
+LF,The system shall have a consistent layout and navigation structure
+PE,The system shall be able to handle 10000 simultaneous data imports
+SC,The system shall be able to handle up to 1 million simultaneous users
+SE,The system shall log all user activity for security purposes
+US,The system shall provide context-sensitive help for all user interface elements
+F,The system shall allow users to create custom reports
+LF,The system shall use a color scheme that is easy on the eyes
+PE,The system shall be able to handle 10000 concurrent transactions
+SC,The system shall be able to handle a 100% increase in user traffic without degrading performance
+US,The system shall have a consistent and intuitive user interface across all modules
+A,The system shall have a disaster recovery plan in place in case of natural disasters or other catastrophic events
+F,The system shall allow users to set up automated searches and alerts
+LF,The system shall use clear and concise language in all user interface elements
+PE,The system shall be able to handle 10000 concurrent API requests
+SC,The system shall be able to handle up to 100 million data records
+SE,The system shall require users to update their passwords every 90 days
+US,The system shall provide keyboard shortcuts for common tasks
+F,The system shall allow users to search for data using natural language queries
+LF,The system shall use icons and other visual cues to help users understand the system's functionality
+PE,The system shall be able to process 10000 transactions per minute
+SC,The system shall be able to handle a 10% increase in user traffic without degrading performance
+US,The system shall provide feedback to users for all user interface interactions
+A,The system shall have a system uptime of 99.9%
+F,The system shall allow users to export data in multiple file formats
+LF,The system shall use a font size that is easy to read
+PE,The system shall be able to handle 10000 simultaneous data exports
+SC,The system shall be able to handle up to 10 billion data records
+LF,The system shall use fonts that are legible and easy to read.
+US,The product shall not require the use of a user manual.
+SE,The product shall ensure data confidentiality for all users.
+SC,The product shall support a maximum of 1000 concurrent users.
+SC,The product shall be able to support a 20% increase in users over the next year.
+SC,The product shall be scalable to handle up to 5000 concurrent users.
+US,The product shall provide help and assistance to users as needed.
+US,The product shall have an online user community for support and troubleshooting.
+US,The product shall provide clear and concise error messages for users.
+PE,The product shall load search results in under 5 seconds.
+PE,The product shall generate a CMA report in under 30 seconds.
+PE,The product shall synchronize contacts and appointments in under 10 seconds.
+A,The product shall be available for use at all times except during scheduled maintenance windows.
+A,The product shall have a maximum downtime of 1 hour per month for scheduled maintenance.
+L,The product shall comply with all relevant data privacy regulations.
+L,The product shall comply with all relevant accessibility regulations.
+L,The product shall comply with all relevant labor laws.
+LF,The system shall have a professional and polished appearance.
+LF,The system shall use consistent branding and visual design.
+LF,The system shall have a responsive and intuitive user interface.
+PE,The product shall be able to handle a minimum of 100 simultaneous search requests.
+PE,The product shall be able to generate a CMA report for up to 5000 properties.
+PE,The product shall be able to synchronize contacts and appointments for up to 5000 users.
+SC,The product shall be able to handle a 50% increase in search volume over the next year.
+SC,The product shall be able to handle a 50% increase in CMA report generation over the next year.
+SC,The product shall be able to handle a 50% increase in contact and appointment synchronization over the next year.
+SE,The product shall use HTTPS encryption for all user data.
+SE,The product shall use two-factor authentication for user login.
+SE,The product shall have a secure backup and disaster recovery plan in place.
+US,The product shall provide clear and concise instructions for all user actions.
+US,The product shall have a consistent and predictable user interface.
+LF,The system shall have a clear and concise layout for user interaction
+US,The product shall not require the use of a user manual.
+US,The product shall require no more than 10 minutes of user training to perform basic functions.
+SE,The product shall ensure data confidentiality for all users.
+SC,The product shall support a maximum of 1000 concurrent users.
+SC,The product shall be able to support a 20% increase in users over the next year.
+SC,The product shall be scalable to handle up to 5000 concurrent users.
+US,The product shall provide help and assistance to users as needed.
+US,The product shall have an online user community for support and troubleshooting.
+US,The product shall provide clear and concise error messages for users.
+PE,The product shall load search results in under 5 seconds.
+PE,The product shall generate a CMA report in under 30 seconds.
+PE,The product shall synchronize contacts and appointments in under 10 seconds.
+A,The product shall be available for use at all times except during scheduled maintenance windows.
+A,The product shall have a maximum downtime of 1 hour per month for scheduled maintenance.
+L,The product shall comply with all relevant data privacy regulations.
+L,The product shall comply with all relevant accessibility regulations.
+L,The product shall comply with all relevant labor laws.
+LF,The system shall have a professional and polished appearance.
+LF,The system shall use consistent branding and visual design.
+LF,The system shall have a responsive and intuitive user interface.
+PE,The product shall be able to handle a minimum of 100 simultaneous search requests.
+PE,The product shall be able to generate a CMA report for up to 5000 properties.
+PE,The product shall be able to synchronize contacts and appointments for up to 5000 users.
+SC,The product shall be able to handle a 50% increase in search volume over the next year.
+SC,The product shall be able to handle a 50% increase in CMA report generation over the next year.
+SC,The product shall be able to handle a 50% increase in contact and appointment synchronization over the next year.
+SE,The product shall use HTTPS encryption for all user data.
+SE,The product shall use two-factor authentication for user login.
+SE,The product shall have a secure backup and disaster recovery plan in place.
+US,The product shall provide clear and concise instructions for all user actions.
+US,The product shall have a consistent and predictable user interface.
+US,The system shall provide a consistent user experience across all devices and platforms.
+A,The system shall have an uptime of at least 99.9%.
+SC,The system shall be able to support up to 10000 simultaneous users.
+LF,The system shall use a modern and intuitive user interface.
+PE,The system shall be able to handle a peak load of 10000 requests per second.
+SE,The system shall implement secure authentication and authorization mechanisms.
+LF,The system shall provide clear and concise error messages to users.
+F,The system shall provide a search function for finding specific items or content.
+L,The system shall comply with all applicable data protection and privacy regulations.
+US,The system shall be accessible to users with disabilities.
+LF,The system shall be optimized for use on mobile devices.
+A,The system shall be available 24/7/365 with no more than 1 hour of planned downtime per month.
+SC,The system shall be able to handle a 50% increase in user traffic within one hour.
+SE,The system shall encrypt all sensitive data both in transit and at rest.
+LF,The system shall have a responsive design that adjusts to different screen sizes.
+PE,The system shall be able to process transactions in real-time.
+US,The system shall provide clear and concise instructions for all user actions.
+F,The system shall provide the ability to sort and filter data.
+L,The system shall comply with all relevant industry standards and best practices.
+SC,The system shall be able to handle a 100% increase in user traffic within 24 hours.
+LF,The system shall have a consistent and professional visual design.
+A,The system shall be able to recover from a failure within 5 minutes.
+US,The system shall provide clear and prominent feedback to users for all user actions.
+SE,The system shall have multiple layers of security to protect against attacks and data breaches.
+LF,The system shall use a consistent color scheme and typography throughout the user interface.
+PE,The system shall be able to handle at least 1000 concurrent users.
+F,The system shall allow for the creation and management of user accounts.
+L,The system shall comply with all relevant international laws and regulations.
+SC,The system shall be able to handle a 200% increase in user traffic within one week.
+A,The system shall have a disaster recovery plan in place.
+US,The system shall provide context-sensitive help and guidance to users.
+SE,The system shall log all user activity for auditing and security purposes.
+LF,The system shall use icons and other visual cues to aid in navigation and usability.
+PE,The system shall be able to handle at least 1000 requests per second with a response time of less than 500ms.
+F,The system shall provide the ability to export data in a variety of formats.
+L,The system shall be audited regularly to ensure compliance with all relevant laws and regulations.
+SC,The system shall be able to handle a 500% increase in user traffic within one month.
+PE,The system shall refresh the display every 60 seconds.
+LF,The application shall match the color of the schema set forth by Department of Homeland Security
+US,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30
+A,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.
+US,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
+SE,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts
+US,The product shall be intuitive and self-explanatory. : 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.
+PE,The product shall respond fast to keep up-to-date data in the display.
+F,The system shall have a MDI form that allows for the viewing of the graph and the data table.
+F,The system shall display Events in a vertical table by time.
+F,The system shall display the Events in a graph by time.
+F,The system shall display Events or Activities.
+F,The display shall have two regions: left 2/3 of the display is graphical right 1/3 of the display is a data table
+F,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data
+F,The table side of the display shall be split into 2 regions: sequential and temporal.
+F,The top 1/4 of the table will hold events that are to occur sequentially.
+F,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.
+F,The system shall color code events according to their variance from current time.
+F,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications
+F,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.
+F,The system shall allow modification of the display.
+F,The system shall offer a display of all the Events in the exercise.
+F,The system shall filter data by: Venues and Key Events.
+F,The system shall allow a user to define the time segments
+F,The system shall display the local and exercise time in separate clocks
+F,The system shall offer the ability to pause and resume the refresh of data.
+F,The system shall provide charts for the Activity or Event actual versus assumed time.
+F,The system shall provide a history report of changes made to the Activity or Event data
+LF,The look and feel of the system shall conform to the user interface standards of the smart device.
+LF,The user interface shall have standard menus buttons for navigation
+LF,The system shall have a professional appearance
+LF,The product shall have a consistent color scheme and fonts.
+US,The system shall be used by realtors with no training.
+US,The system shall be intuitive and self explanatory.
+US,The product shall be easy for a realtor to learn.
+US,The product shall use symbols and words that are naturally understandable by the realtor community.
+PE,The product shall produce search results in an acceptable time
+PE,The search results shall be returned no later 30 seconds after the user has entered the search criteria
+PE,The product shall generate a CMA report in an acceptable time.
+PE,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.
+PE,The product shall synchronize contacts and appointments in an acceptable time.
+PE,The product shall synchronize with the office system every hour.
+A,The product shall be available for use 24 hours per day 365 days per year
+A,Out of 1000 accesses to the system the system is available 999 times.
+SC,The product shall be able to support multiple remote users
+SC,The product shall be able support 1000 simultaneous users.
+SC,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.
+US,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.
+US,90% of untrained realtors shall be able to install the product on their device without printed instructions
+SE,Only registered realtors shall be able to access the system.
+SE,Every user of the system shall be authenticated and authorized.
+SE,The product shall prevent its data from incorrect data being introduced.
+F,The system shall allow a real estate agent to query MLS information
+F,The user shall be able to get driving directions to a selected property
+F,The user shall be able to download appointments and contact information for clients
+F,The system shall display clear property images in the search results
+F,The system shall update or create new property listings in the MLS
+F,Realtor shall be able to generate a CMA report based on property criteria
+F,The system shall be able to call the seller or buyer to schedule an appointment
+F,The realtor shall be notified of new client appointments after automatic synchronization with office system
+F,The realtor shall be able to retrieve a map showing property locations for a specified area
+F,The system shall notify the realtor when a seller or buyer responds to an appointment request
+F,The product shall allow the user to save the property search results.
+US,The system shall be easy to use by the Program Administrators/Nursing Staff Members.
+US,All of the users shall be able to use the system after one day of training.
+US,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.
+US,The number of mistakes noted by the students shall be decreased by 50% in the first year.
+US,The system shall be intuitive to the Program Administrators/Nursing Staff Members.
+US,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.
+US,The system shall use symbols and words that are naturally understandable by the user community.
+US,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.
+PE,Staff members shall be able to complete a set of tasks in a timely manner.
+PE,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.
+A,The system shall be available for use between the hours of 8am and 6pm.
+A,The system shall achieve 95% up time.
+SC,system shall be able to handle all of the user requests/usage during business hours.
+SC,The system shall cater to 10 simultaneous users from 9am to 5pm.
+SC,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.
+SC,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.
+SE,Only authorized users shall have access to clinical site information.
+SE,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.
+SE,Only authorized users shall have access to students’ personal information.
+SE,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students’ personal information.
+SE,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.
+SE,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.
+SE,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.
+SE,The system shall protect private information in accordance with the organization’s information policy.
+SE,The system shall be built such that it is as secure as possible from malicious interference.
+SE,The system shall use the organization’s standard virus protection software to help monitor threats to itself.
+F,A cohort shall be associated to one Program of Study offered by the department.
+F,Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.
+F,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort
+F,Students added to a cohort shall be eligible for the cohort’s Program of Study.
+F,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.
+F,For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.
+F,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes
+F,Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes
+F,Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system identified by start month and year.
+F,Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.
+F,A class shall be either a non-clinical class or a clinical class.
+F,A non-clinical class shall specify the course name lecture room requirements and instructor needs.
+F,A clinical class shall specify the course name lecture room requirements clinical site needs lecture instructor needs and clinical lab instructor needs.
+F,Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.
+F,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.
+F,Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study
+F,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members’ planning purposes.
+F,The report of needed classes shall include (but not be limited to) classes to be offered number of sections needed number of labs needed and room types needed.
+F,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.
+F,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.
+F,Clinical site information shall include (but not be limited to) the name of the site contact person and contact information.
+F,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.
+F,A clinical lab section shall include the clinical site name the class instructor day and time of the lab.
+F,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.
+F,The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.
+F,The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.
+F,Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.
+F,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.
+F,A staff member shall have the ability to manage the progress of a part time student which includes modifying their sequence of classes and timeline of classes.
+F,The system shall be able to display a printable summary for individual cohorts which will include the students enlisted the Program of study sequence of classes cohort progress through the program and timeline of completion.
+F,The system shall be able to display a printable summary for individual clinical sites which will include information on labs being held at that site for the given quarter (Clinical site general information on labs held at that location dates and times of all labs held there).
+F,The system shall be able to display a printable summary for individual clinical labs which will include (but not be limited to) class name class number lab section listing of students enrolled instructor day(s) time and location.
+F,The system shall be able to display a printable summary for individual nursing students which will include (but not be limited to) student name student ID admission date classes credits GPA and the cohort that the student is enrolled in.
+F,The system shall be able to display a printable summary of the system log.
+F,The system shall contain contact information (e-mail and phone number) for all people relevant to the system including (but not limited to) staff members students lecture instructors clinical lab instructors and clinical site administrators.
+F,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.
+F,The system will notify affected parties for routine communication purposes including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.
+F,The system will notify affected parties when changes occur affecting clinicals including but not limited to clinical section capacity changes and clinical section cancellations.
+F,The system will notify affected parties when changes occur affecting classes including but not limited to class cancellations class section detail changes and changes to class offerings for a given quarter.
+F,The system will notify affected parties when changes occur affecting cohorts including but not limited to changes to the sequence for a cohort’s program of study and changes to a given week’s schedule (lab cancelled this week due to instructor illness).
+F,The system will notify affected parties when changes occur affecting specific students including but not limited to changing a student’s status from full time to part time and moving a student to a different clinical section.
+F,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes.
+F,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name and required classes for that Program of Study.
+F,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site including the clinical site name site contact person contact information and address.
+F,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section including the clinical site name the department/section for the lab the class instructor day and time of lab and contact information.
+F,Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.
+LF,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.
+LF,All screens created as part of the Disputes application must comply with corporate standards for interface creation.
+US,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.
+US,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.
+US,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.
+US,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.
+PE,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.
+PE,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.
+SE,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.
+SE,Only users with Update access must be able to initiate dispute requests.
+SE,The Disputes application shall ensure that only authorized users are allowed to logon to the application.
+SE,All authorized users once authenticated must be able to logon to the Disputes System
+SE,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user’s access level. The report will be reviewed for auditing purposes.
+SE,All additions of new users and modifications to user’s access shall be recorded on the User Report.
+SE,If a user account is revoked it can only be re-instantiated by the System Administrator.
+SE,Only the System Administrator shall be able to reset a revoked user logon account
+SE,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.
+SE,All updates to data files or database must be initiated from the Disputes System.
+L,The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.
+L,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.
+L,The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.
+L,All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.
+L,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.
+L,All actions that modify an existing dispute case must be recorded in the case history.
+F,The Disputes System must be accessible by both internal and external users.
+F,The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.
+F,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.
+F,The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.
+F,The Disputes System shall provide view access capability for authorized users of the application.
+F,The Disputes System shall provide update access capability for authorized users of the application.
+F,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.
+F,The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.
+F,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request. As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request. The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.
+F,The Disputes System must allow the user to create three unique types of ticket retrieval requests. The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.
+F,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.
+F,The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number the type of retrieval requested (copy original or portfolio) and the date that the merchant response is due.
+F,The Disputes System shall allow the user to create or initiate a chargeback request. The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.
+F,The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number the type of chargeback requested (pending or immediate) and the date that the merchant response is due.
+F,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.
+F,The Disputes System shall accurately provide a list of possible reason codes for a given transaction. The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the Disputes System.
+F,The Disputes System must provide the ability to view existing dispute cases.
+F,The Disputes System must provide Search functionality. The search method must include the ability to search by (1) the dispute case number (2) the merchant account number (3) the cardmember account number and (4) the issuer number. In addition to the above criteria the search functionality must further allow the user to limit the results of the search by a date range the type of dispute (ticket retrieval request or chargeback notification) the case status (open closed or all) and the dispute reason code.
+F,A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.
+F,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.
+F,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.
+F,The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system. A detailed history of the actions taken on the case including the date and the user that performed the action must be maintained for auditing purposes.
+F,For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process a case activity will be generated. Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.
+F,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.
+F,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.
+LF,The product shall comply with corporate User Interface Guidelines
+LF,The product shall comply with corporate color scheme
+LF,The appearance of the product shall appear professional
+US,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.
+US,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.
+US,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.
+US,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training
+US,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.
+PE,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.
+PE,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds
+PE,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.
+PE,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.
+A,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.
+A,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.
+SC,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.
+SC,The average number of recycled parts records per day shall be 50 000.
+SC,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.
+SE,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.
+SE,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.
+SE,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.
+SE,Only valid data shall be entered into the system. No invalid data shall be entered into the system.
+SE,One insurance company shall not be able to view another insurance companys claim data.
+SE,The product shall free of computer viruses.
+SE,The system shall prevent malicious attacks including denial of service.
+L,The product must comply with Sarbanes-Oxley.
+L,The product shall comply with the estimatics laws relating to recycled parts usage.
+L,The product shall comply with insurance regulations regarding claims processing.
+F,The user shall search for the preferred repair facility using vehicle vehicle location and radius in miles
+F,The vehicle data shall include vehicle year make and model
+F,The vehicle location shall include street address city state and zipcode
+F,The system shall resolve the zipcode for the street address city and state if zipcode is unknown.
+F,The search radius shall be between 1 and 30 miles
+F,The system shall locate the preferred repair facility with the highest ratings for the input criteria
+F,The adjuster shall enter the preferred repair facility on the estimate assignment.
+F,The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.
+F,The preferred repair facility shall be returned to the user.
+F,The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.
+F,The estimator shall search for available recycled parts using damaged vehicle parts information.
+F,The estimator shall search for available recycled parts using a list of preferred parts suppliers.
+F,The system shall search for available recycled parts for the supplied vehicle parts and suppliers.
+F,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers
+F,The system shall retain the available recycled parts and suppliers returned from the search.
+F,The available recycled parts information and their suppliers shall be returned to the user.
+F,The estimator shall apply selected recycled parts to the collision estimate.
+F,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.
+F,The adjuster shall review the collision estimate.
+F,The adjuster shall request a recycled parts audit of the collision estimate.
+F,The recycled parts search results provided to the estimator shall be retrieved by the system.
+F,The system shall generate an audit report based on the available recycled parts and the collision estimate.
+F,The audit report shall include the total number of recycled parts used in the estimate.
+F,The audit report shall include the number of available recycled parts from the original search results.
+F,The audit report shall include the percentage of available recycled parts used in the estimate 
+F,The audit report shall include the total score of the audit which sums the indivual line items.
+F,The audit report shall be displayed to the user.
+F,The audit report shall be available to other adjusters at later points in time.
+F,The user shall select to view the preferred repair facility ratings.
+F,The current repair facility ratings shall be displayed to the user.
+F,The system will display a blank set of ratings if there are not ratings yet defined.
+F,The user shall enter new ratings based on the audit report
+F,The ratings shall be from a scale of 1-10
+F,The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts
+F,The user shall select to save the preferred repair facility ratings.
+F,The preferred repair facility ratings shall be saved by the system.
+LF,The product’s Look and Feel shall be able to incorporate aspects of the customer’s organization such as logo branding and identity
+LF,The product shall have a conservative and professional appearance.
+US,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.
+US,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.
+US,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.
+US,The product shall allow the user to select a chosen language from one of the target market countries.
+US,The product shall allow for customization of start page and views preferences.
+US,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.
+US,The product shall use a standard navigation menu familiar to most web users.
+US,The product shall allow for intuitive searching of available conference rooms.
+US,The product shall conform to the Americans with Disabilities Act.
+PE,The response shall be fast enough to avoid interrupting the user’s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.
+A,Aside from server failure the software product shall achieve 99.99% up time.
+SC,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.
+SC,The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.
+SC,The product shall be expected to operate for at least 5 years for each customer installation.
+US,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.
+US,Every registered user will have access to the product’s support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.
+US,The product shall be translated into foreign languages other than the target market countries’ languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market’s language.
+SE,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.
+SE,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.
+SE,The product shall ensure that the database’s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.
+SE,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems’ data shall remain 100% uncorrupted each time malicious data is input into the product.
+SE,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.
+SC,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.
+US,The product shall be able to display calendar dates and times according to the user’s locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.
+F,The product shall record meeting entries.
+F,The product will notify employees of meeting invitations.
+F,The product shall have the ability to send meeting reminders to employees.
+F,The product shall assign the organizers contact information to each meeting they create.
+F,The product will record meeting acknowledgements.
+F,The product shall store new conference rooms.
+F,The product shall update existing conference rooms.
+F,The product will be able to delete conference rooms.
+F,The product shall be able to store new room equipment.
+F,The product will update existing room equipment.
+F,The product shall be able to delete room equipment.
+F,The product shall allow an organizer to invite other employees to meetings.
+F,Each time a conference room is reserved the conference room schedule shall be updated to reflect the time and date of the reservation.
+F,The product shall record the transportation status of equipment reserved.
+F,The product shall display a map of the company building showing conference room locations.
+F,The product shall record updated meeting agendas.
+F,The product shall send a meeting confirmation to the meeting organizer.
+F,The product shall display room equipment according to search parameters.
+F,The product shall display conference rooms according to search parameters.
+F,The product shall record different meeting types.
+F,The product shall record all the equipment that has been reserved.
+F,The product shall notify building personnel of equipment transport requests.
+F,The product will allow priviledged users to view meeting schedules in multiple reporting views.
+F,The product shall be able to send meeting notifications via different kinds of end-user specified methods.
+F,The product shall have a customizable Look and Feel.
+F,The product shall have an intuitive user interface.
+F,The product will display an available status for unreserved conference rooms.
+PE,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.
+PE,The System shall allow for a minimum of 6 users to work at the same time.
+SE,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.
+SE,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.
+L,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.
+F,The System shall allow generation of Inventory Quantity Adjustment documents on demand.
+F,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.
+F,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.
+F,The System shall allow entering storing and modifying product formulas.
+F,Product formulas shall allow use of semi-products which have own formulas.
+F,Product formula ingredients shall allow defining substitutionary ingredients.
+F,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.
+F,Formula substitutionary ingredients shall be kept in persisted order
+F,Product shall allow entering storing and modifying product menus used by POS terminals.
+F,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.
+F,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.
+F,PME Subsystem shall allow for a product to exist in more than one submenu
+F,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.
+F,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.
+F,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.
+PE,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.
+PE,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.
+PE,System shall let customers register on the website as a “pay as you go” user in under 5 minutes.
+PE,System shall let customers register on the website as a “unlimited movie subscriber” user in under 10 minutes.
+PE,System shall let existing customers log into the website with their email address and password in under 5 seconds.
+PE,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.
+PE,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.
+PE,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.
+PE,System shall let the administrator add/remove categories on the website in under 5 minutes.
+PE,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.
+PE,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.
+LF,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.
+LF,The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.
+LF,The website design should be modern clean and concise.
+US,The product should be able to be used by 90% of novice users on the Internet.
+US,Users should only have to navigate through a maximum of 4 pages to create an account with the website.
+US,Users should be able to access their streaming movies in under 2 clicks after logging into the website.
+US,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.
+US,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.
+US,The product shall retain the customer’s buying preferences and information.
+US,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.
+US,The product shall use symbols and words that are naturally understandable by users familiar with websites
+US,The website will use standard Internet conventions when interacting with the user.
+PE,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.
+PE,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.
+PE,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user’s connection.)
+PE,While streaming a movie buffering should only occur if there is latency in the user’s connection.
+SE,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.
+A,The website shall be available for use 24 hours per day 365 days per year.
+A,The website shall achieve 99.5% up time.
+A,All movies shall be streamed on demand at any time of the day.
+SC,The streaming server will support 50 simultaneous streaming connections.
+SC,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.
+SC,The server will support a maximum of 1 000 simultaneous users.
+SC,The website shall be capable of supporting 100 000 customers.
+PE,Izogn Administrator must be able to update the category listings on the website within 2 minutes.
+PE,Izogn Administrator must be able to add new products to the website within 2 minutes.
+A,The system will provide a 24 hour 800 toll free number for support to its customers.
+US,The website will provide a help section with answers and solutions to common problems.
+A,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.
+SE,Only registered customers can purchase streaming movies.
+SE,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.
+SE,Only authorized personnel can access customer records in the database.
+SE,Only administrators can activate a pre-paid card.
+SE,Only authorized personnel can access sales information.
+SE,The website shall prevent its data from being corrupted when incorrect data is entered in.
+SE,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.
+SE,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.
+SE,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.
+SE,The system shall notify customers of changes to its information policy.
+SE,The system shall reveal private information only in compliance with the organization’s information policy.
+SE,All customer information will be stored on a secure database accessible only to authorized personnel.
+SE,All credit card information will be encrypted in the database.
+SE,The streaming server will have anti-virus software to prevent infection of malicious viruses.
+LF,The website should cater to all tribes in Nigeria.
+LF,The website shall not be offensive to religious or ethnic groups.
+LF,The website should appeal to all Africans not only Nigerians.
+L,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.
+L,The website will comply with W3C standards.
+L,The PHP code will comply with PEAR standards.
+F,The website will allow customers to search for movies by title actor or director.
+F,viewing a movie details the website will display the movies description actor and director entered in by the administrator.
+F,Website shall request and authorize credit card payment before allowing a user to stream a movie.
+F,shall be able to stream purchased movie via Windows Media Player for up to 2 days aftere purchase date.
+F,Website shall allow customers to browse movies by categories entered in by izogn administrator.
+F,Website shall allow customers to view reviews of selected movies by other customers.
+F,Website shall allow customers to add their own movie review for a selected movie.
+F,Website shall allow the Izogn administrator to approve a review posted by a customer.
+F,System will allow customers to pay for a streaming movie with a pre-paid card.
+F,Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.
+F,System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.
+F,System shall allow users to update their billing and contact information via the “My Account” section of the website.
+F,Pre-paid cards shall be distributed via email or via a printed paper card.
+F,Only registered customers can purchase streaming movies.
+F,Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.
+F,Website must be able to support free trial periods with various parameters set by the Izogn Manager.
+F,All streaming movie sales will be logged in the database and accessible by the administrator.
+F,All registered customer information shall be stored and maintained in the database even after the customer cancels their account.
+F,Daily usage statistics should be logged and accessible by the administrator.
+F,The owner shall have free access to all of the streaming movies.
+PE,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.
+PE,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.
+PE,For leads that process longer than 25 seconds the system will record the event and duration
+PE,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.
+A,Defect reports will be available to technical units on a 24x7 basis.
+F,The vendor will verify the invalid lead.
+F,Vendor will submit a credit validation record to be applied to the enterprise billing system.
+F,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.
+F,The leads washing functionality will validate all leads received by the web service for valid data
+F,The leads washing functionality will insert all leads captured by the web service.
+F,If the leads score falls within the high average score then it will be process by the ARA functionality.
+F,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.
+F,If the leads score falls within the low average then it will be returned to the supplying vendor
+F,The leads washing functionality will compile both contact and academic scoring information for a total score.
+F,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.
+F,The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.
+F,The leads washing functionality will have an interface in which lead data parameters can be maintained.
+F,The leads washing functionality will verify the users authentication and rights to make parameter updates.
+F,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.
+F,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.
+F,The leads washing functionality shall receive a period list of available reps from the enterprise system.
+LF,The product shall simulate the look of ships at sea.
+LF,The product shall display the grids within a circle as a view from a periscope.
+LF,The product shall display each type of ship in a grid using an image of the specific type of ship.
+LF,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.
+LF,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.
+LF,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.
+LF,When a ship is sunk the product shall simulate the sound of a sinking ship.
+A,The product shall be available 24 hours per day seven days per week.
+PE,The product shall able to handle a large number of games simultaneously.
+PE,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.
+US,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.
+US,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.
+SE,The product shall provide players no access to information that might reveal the identity of another player
+PE,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
+F,The product shall maintain a list of players.
+F,The product shall allow a user to identify himself or herself as a player.
+F,Once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players.
+F,The product shall allow a user to remove himself or herself from the list of players at any time.
+F,The product shall make inactive players unavailable for selection from the list of players.
+F,The product shall remove players who have been inactive for 24 hours from the list of players.
+F,The product shall allow a player to initiate a game by selecting another available player from the list of players.
+F,Once a game is initiated the product shall display a defensive grid to each player
+F,Once a game is initiated the product shall display an offensive grid to each player.
+F,The product shall prevent a player from viewing the offensive or defensive grids of the other player.
+F,Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.
+F,The product shall allow a player to position ships horizontally on their grid.
+F,The product shall allow the player to position ships vertically on their grid.
+F,The product shall allow the player to position ships diagonally on their grid
+F,The product shall prevent the player from overlapping ships on their grid.
+F,When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.
+F,For each turn the product shall identify one player as offensive status and one player as defensive status.
+F,The product shall maintain the status of each player for a turn either offensive or defensive.
+F,At the start of each turn the product shall notify each player of his or her status.
+F,For each turn the product shall allow the offensive player to define a shot.
+F,For each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.
+F,For each shot the product shall notify the players whether the shot was a hit or miss.
+F,For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.
+F,For each shot the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.
+F,When the hit results in sinking a ship the product shall notify the players that the ship was sunk.
+F,When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.
+F,When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.
+F,When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.
+F,If the shot was marked as a hit the product shall allow the offensive player to define a shot.
+F,If the shot was marked as a miss the product shall change the status of the offensive player to defensive
+F,If the shot was marked as a miss the product shall change the status of the defensive player to offensive
+F,The product shall continue to assign turns until the game is ended.
+F,The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player’s ships which had not been previously marked as sunk.
+F,The product shall allow a player to end a game at any time during the game.
+F,When a game is ended the product shall notify the players that the game is ended.
+F,The notification of the game ending will include the reason the game is ended (i.e. a player has won the game or a player has ended the game).
+F,When a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players.
+F,When a game is ended the product shall allow each player to remove himself or herself from the list of players.
+US,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.
+US,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.
+PE,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.
+PE,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.
+PE,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.
+A,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.
+A,The system must be available for use between 7:00AM and 11:59PM all days of the year.
+SE,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.
+SE,The product shall ensure that only supervisors can enter a caller’s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.
+SE,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.
+LF,The interface shall have a simple look. In the interface and usability survey 90% of beta testers must report that the interface is adequately simple.
+LF,The interface shall be appealing to callers and supervisors. In the interface and usability survey 80% of beta testers must report that the interface is appealing.
+LF,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.
+LF,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.
+US,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.
+US,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.
+US,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators)
+PE,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications
+PE,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.
+PE,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds
+PE,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.
+PE,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.
+A,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.
+SC,The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.
+SE,The product shall have security.The product shall provide authentication and authorization.
+SE,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.
+SE,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.
+LF,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.
+LF,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.
+LF,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports
+LF,The interface must summarize the data in a fashion that’s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface
+US,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard
+US,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.
+US,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report)
+US,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.
+US,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available)
+US,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.
+A,The WCS system shall be available at all times as long as IBM’s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM’s internal intranet W3 is available.
+SC,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.
+SC,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.
+SE,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.
+SE,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user’s computer.
+SE,Each team owner will need to use a username and password in order to be authenticated to reach the team owner’s page
+SE,The Commissioner will be the only authorized user per league to adjust league settings.
+LF,Each page shall contain a navigation menu which shows the index into which the current page is contained.
+LF,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.
+LF,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.
+US,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.
+US,Users shall be able to reach the ‘add’ ‘drop’ and ‘trade player’ pages with one click from the team owner’s page.
+US,Users shall be able to view at least 25 NFL player statistics and points on each page.
+US,The application shall ask the user to confirm dropping a player or trading a player before performing the action.
+PE,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.
+A,The application shall have a downtime of at most 10 minutes per year.
+A,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.
+SE,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.
+SE,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..
+LF,The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.
+LF,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.
+US,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.
+PE,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.

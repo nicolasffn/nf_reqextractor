@@ -6,10 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense, Embedding, LSTM, SpatialDropout1D
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.utils import to_categorical
+
 from sklearn.metrics import confusion_matrix, f1_score, accuracy_score, precision_recall_fscore_support, precision_score, recall_score
 
 if __name__ == "__main__":
@@ -44,27 +45,33 @@ if __name__ == "__main__":
     test_labels = to_categorical(test_df['label'], num_classes=len(label_encoder.classes_))
 
     # Define the neural network architecture
-    model = Sequential()
-    model.add(Embedding(5000, 100, input_length=max_length)) # Word Embedding layer
-    model.add(SpatialDropout1D(0.2)) # Spatial Dropout layer to prevent overfitting
-    model.add(LSTM(256, dropout=0.2, recurrent_dropout=0.2)) # LSTM layer for sequence processing
-    model.add(Dense(len(label_encoder.classes_), activation='softmax')) # Output layer
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
+    if use_saved_model:
+        model = load_model('my_model.h5')
+    else:
+        model = Sequential()
+        model.add(Embedding(5000, 100, input_length=max_length)) # Word Embedding layer
+        model.add(SpatialDropout1D(0.2)) # Spatial Dropout layer to prevent overfitting
+        model.add(LSTM(256, dropout=0.2, recurrent_dropout=0.2)) # LSTM layer for sequence processing
+        model.add(Dense(len(label_encoder.classes_), activation='softmax')) # Output layer
+        model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
-    # Use early stopping to prevent overfitting and speed up training
-    early_stopping = EarlyStopping(patience=10, restore_best_weights=True)
+        # Use early stopping to prevent overfitting and speed up training
+        early_stopping = EarlyStopping(patience=10, restore_best_weights=True)
 
-    # Train the model
-    batch_size = 1188 # Number of samples per batch
-    epochs = 275 # Number of times to iterate over the training data
-    model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
+        # Train the model
+        batch_size = 1188 # Number of samples per batch
+        epochs = 275 # Number of times to iterate over the training data
+        model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
+
+        # Save the trained model
+        model.save('my_model.h5')
 
     # Make predictions on the test set and calculate metrics
     y_true = np.argmax(test_labels, axis=1) # Convert one-hot encoded labels to integers
     y_pred = np.argmax(model.predict(test_data), axis=1) # Make predictions and convert to integers
     accuracy = accuracy_score(y_true, y_pred) # Calculate accuracy
     print(f"Accuracy: {accuracy:.2f}")
-
+    
     # Calculate precision, recall, and f1 score for each label
     precision, recall, f1, support = precision_recall_fscore_support(y_true, y_pred)
 
