@@ -19,7 +19,7 @@ if __name__ == "__main__":
     utilities.download('universal_tagset')
 
     # Read the requirements.csv file into a dataframe
-    df = pd.read_csv('./assets/csv/requirements_bis.csv')
+    df = pd.read_csv('./assets/csv/requirements.csv')
 
     # Split the data into training and testing sets
     train_df, test_df = train_test_split(df, test_size=0.2)
@@ -44,6 +44,7 @@ if __name__ == "__main__":
     train_labels = to_categorical(train_df['label'], num_classes=len(label_encoder.classes_))
     test_labels = to_categorical(test_df['label'], num_classes=len(label_encoder.classes_))
 
+    use_saved_model = True
     # Define the neural network architecture
     if use_saved_model:
         model = load_model('my_model.h5')
@@ -60,7 +61,7 @@ if __name__ == "__main__":
 
         # Train the model
         batch_size = 1188 # Number of samples per batch
-        epochs = 275 # Number of times to iterate over the training data
+        epochs = 10 # Number of times to iterate over the training data
         model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
 
         # Save the trained model

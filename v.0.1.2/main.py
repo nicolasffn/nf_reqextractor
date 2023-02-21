@@ -18,7 +18,7 @@ if __name__ == "__main__":
     utilities.download('universal_tagset')
 
     # Read the requirements.csv file into a dataframe
-    df = pd.read_csv('./assets/csv/requirements_bis.csv')
+    df = pd.read_csv('./assets/csv/requirements.csv')
 
     # Split the data into training and testing sets
     train_df, test_df = train_test_split(df, test_size=0.2)
