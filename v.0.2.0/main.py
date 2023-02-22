@@ -22,7 +22,7 @@ if __name__ == "__main__":
     df = pd.read_csv('./assets/csv/requirements.csv')
 
     # Split the data into training and testing sets
-    train_df, test_df = train_test_split(df, test_size=0.2)
+    train_df, test_df = train_test_split(df, test_size=0.3)
 
     # Encode the labels as integers
     label_encoder = LabelEncoder()
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     train_labels = to_categorical(train_df['label'], num_classes=len(label_encoder.classes_))
     test_labels = to_categorical(test_df['label'], num_classes=len(label_encoder.classes_))
 
-    use_saved_model = True
+    use_saved_model = False
     # Define the neural network architecture
     if use_saved_model:
         model = load_model('my_model.h5')
@@ -57,12 +57,13 @@ if __name__ == "__main__":
         model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
         # Use early stopping to prevent overfitting and speed up training
-        early_stopping = EarlyStopping(patience=10, restore_best_weights=True)
+        # early_stopping = EarlyStopping(patience=15, restore_best_weights=True)
 
         # Train the model
         batch_size = 1188 # Number of samples per batch
-        epochs = 10 # Number of times to iterate over the training data
-        model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
+        epochs = 215 # Number of times to iterate over the training data
+        # model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
+        model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.3)
 
         # Save the trained model
         model.save('my_model.h5')
@@ -79,10 +80,10 @@ if __name__ == "__main__":
     # Print precision, recall, and f1 score for each label
     for label, prec, rec, f1_score, support_count in zip(label_encoder.classes_, precision, recall, f1, support):
         print(f"Label: {label}")
-        print(f"  Precision: {prec:.2f}")
-        print(f"  Recall: {rec:.2f}")
-        print(f"  F1 score: {f1_score:.2f}")
-        print(f"  Support: {support_count}")
+        print(f" |--->Precision: {prec:.2f}")
+        print(f" |--->Recall: {rec:.2f}")
+        print(f" |--->F1 score: {f1_score:.2f}")
+        print(f" |--->Support: {support_count}")
 
     # Calculate and print overall precision, recall, and f1 score
     macro_precision = precision.mean()
@@ -145,3 +146,10 @@ phrases = ["The software must be able to calculate the sum of two numbers.",
 for phrase in phrases:
     result = predict_requirement(phrase)
     print(f"Input: {phrase}\nPrediction: {result[0]}\nConfidence: {result[1]}")
+
+while True:
+    text = input("Enter a requirement: ")
+    if not text:  # Sortir de la boucle si l'utilisateur ne saisit rien
+        break
+    result = predict_requirement(text)
+    print(f"Input: {text}\nPrediction: {result[0]}\nConfidence: {result[1]}")
