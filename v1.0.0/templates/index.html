@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Requirement Prediction</title>
+</head>
+<body>
+    <h1>Requirement Prediction</h1>
+    <form method="POST">
+        <label for="text">Enter a requirement:</label>
+        <input type="text" name="text" id="text">
+        <button type="submit">Predict</button>
+    </form>
+    {% if results %}
+        <h2>Results</h2>
+        {% for label, confidence in results %}
+            <p>Prediction: {{ label }} | Confidence: {{ confidence }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
