@@ -1,20 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Requirement Prediction</title>
-</head>
-<body>
-    <h1>Requirement Prediction</h1>
-    <form method="POST">
-        <label for="text">Enter a requirement:</label>
-        <input type="text" name="text" id="text">
-        <button type="submit">Predict</button>
-    </form>
-    {% if results %}
-        <h2>Results</h2>
-        {% for label, confidence in results %}
-            <p>Prediction: {{ label }} | Confidence: {{ confidence }}</p>
-        {% endfor %}
-    {% endif %}
-</body>
+    <head>
+        <title>Requirement Extractor</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            .input-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            .input-prompt {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .input-field {
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid #ddd;
+                border-radius: 5px;
+                width: 400px;
+                max-width: 100%;
+                text-align: center;
+            }
+
+            .extract-button {
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #0a0a0a;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .extract-button:hover {
+                background-color: #000000;
+            }
+
+            .results-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;  
+            }
+
+            .history-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .results-table {
+                border-collapse: collapse;
+                margin-top: 20px;
+                width: 100%;
+                max-width: 800px;
+            }
+
+            .results-table th,
+            .results-table td {
+                padding: 8px;
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+
+            .results-table th {
+                background-color: #0a0a0a;
+                color: white;
+            }
+
+            .results-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .results-table tr:hover {
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Requirement Extractor</h1>
+            <div class="input-container">
+                <p class="input-prompt">Enter a requirement:</p>
+                <form method="POST" action="{{ url_for('predict') }}">
+                    <input class="input-field" type="text" name="input_text" placeholder="e.g. The system shall allow users to reset their password." required>
+                    <input class="extract-button" type="submit" value="Extract">
+                </form>
+            </div>
+            {% if results %}
+            <div class="results-container">
+                <h2>Results:</h2>
+                <span>The database must have a backup system to ensure data availability in case of failure.</span>
+                <table class="results-table">
+                    <tr>
+                        <th>Label</th>
+                        <th>Confidence</th>
+                    </tr> {% for label, confidence in results %} <tr>
+                        <td>{{ label }}</td>
+                        <td>{{ '{:.2f}'.format(confidence) }}%</td>
+                    </tr> {% endfor %}
+                </table>
+            </div>
+            {% endif %}
+            {% if history %}
+            <div class="history-container">
+                <h2>History:</h2>
+                <table class="results-table">
+                    <tr>
+                        <th>Requirement</th>
+                        <th>Label</th>
+                        <th>Confidence</th>
+                    </tr> {% for req, label, confidence in history %} <tr>
+                        <td>{{ req }}</td>
+                        <td>{{ label }}</td>
+                        <td>{{ confidence }}</td>
+                    </tr> {% endfor %}
+                </table>
+            </div>
+            {% endif %}
+        </div>
+    </body>
 </html>

@@ -21,7 +21,7 @@ utilities.download('universal_tagset')
 df = pd.read_csv('./assets/csv/requirements.csv')
 
 # Split the data into training and testing sets
-train_df, test_df = train_test_split(df, test_size=0.3)
+train_df, test_df = train_test_split(df, test_size=0.25)
 
 # Encode the labels as integers
 label_encoder = LabelEncoder()
@@ -35,9 +35,10 @@ train_sequences = tokenizer.texts_to_sequences(train_df['text'])
 test_sequences = tokenizer.texts_to_sequences(test_df['text'])
 
 # Pad the sequences to the same length
-max_length = max([len(s) for s in train_sequences + test_sequences])
+# max_length = max([len(s) for s in train_sequences + test_sequences])
+max_length = 80
 train_data = pad_sequences(train_sequences, maxlen=max_length)
-test_data = pad_sequences(test_sequences, maxlen=max_length)
+test_data = pad_sequences(test_sequences, maxlen=max_length, padding='post', truncating='post')
 
 # Convert the labels to one-hot encoded arrays
 train_labels = to_categorical(train_df['label'], num_classes=len(label_encoder.classes_))
@@ -62,7 +63,7 @@ else:
     batch_size = 1188 # Number of samples per batch
     epochs = 225 # Number of times to iterate over the training data
     # model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
-    model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.3)
+    model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.25)
 
     # Save the trained model
     model.save('my_model.h5')
