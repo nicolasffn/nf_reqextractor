@@ -9,10 +9,25 @@
 
             .container {
                 display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100vh;
+            }
+
+            .form-results-container {
+                display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                height: 100vh;
+                width: 50%;
+                padding: 20px;
+            }
+
+            .history-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                padding: 20px;
             }
 
             .input-container {
@@ -56,13 +71,6 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center;  
-            }
-
-            .history-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
                 justify-content: center;
             }
 
@@ -96,45 +104,41 @@
     </head>
     <body>
         <div class="container">
-            <h1>Requirement Extractor</h1>
-            <div class="input-container">
-                <p class="input-prompt">Enter a requirement:</p>
-                <form method="POST" action="{{ url_for('predict') }}">
-                    <input class="input-field" type="text" name="input_text" placeholder="e.g. The system shall allow users to reset their password." required>
-                    <input class="extract-button" type="submit" value="Extract">
-                </form>
-            </div>
-            {% if results %}
-            <div class="results-container">
-                <h2>Results:</h2>
-                <span>The database must have a backup system to ensure data availability in case of failure.</span>
-                <table class="results-table">
-                    <tr>
-                        <th>Label</th>
-                        <th>Confidence</th>
-                    </tr> {% for label, confidence in results %} <tr>
-                        <td>{{ label }}</td>
-                        <td>{{ '{:.2f}'.format(confidence) }}%</td>
-                    </tr> {% endfor %}
-                </table>
-            </div>
-            {% endif %}
-            {% if history %}
-            <div class="history-container">
+            <div class="form-results-container">
+                <h1>Requirement Extractor</h1>
+                <div class="input-container">
+                    <p class="input-prompt">Enter a requirement:</p>
+                    <form method="POST" action="{{ url_for('predict') }}">
+                        <input class="input-field" type="text" name="input_text" placeholder="e.g. The system shall..." required>
+                        <input class="extract-button" type="submit" value="Predict">
+                    </form>
+                </div> {% if results %} <div class="results-container">
+                    <h2>Results:</h2>
+                    <span>The database must have a backup system to ensure data availability in case of failure.</span>
+                    <table class="results-table">
+                        <tr>
+                            <th>Label</th>
+                            <th>Confidence</th>
+                        </tr> {% for label, confidence in results %} <tr>
+                            <td>{{ label }}</td>
+                            <td>{{ confidence }}%</td>
+                        </tr> {% endfor %}
+                    </table>
+                </div> {% endif %}
+            </div> {% if history %} <div class="history-container">
                 <h2>History:</h2>
                 <table class="results-table">
                     <tr>
-                        <th>Requirement</th>
-                        <th>Label</th>
-                        <th>Confidence</th>
+                        <th style="width: 60%;">Requirement</th>
+                        <th style="width: 15%;">Label</th>
+                        <th style="width: 25%;">Confidence</th>
                     </tr> {% for req, label, confidence in history %} <tr>
-                        <td>{{ req }}</td>
-                        <td>{{ label }}</td>
-                        <td>{{ confidence }}</td>
+                        <td style="font-size: 14px;">{{ req }}</td>
+                        <td style="font-size: 15px;">{{ label }}</td>
+                        <td style="font-size: 15px;">{{ confidence }}</td>
                     </tr> {% endfor %}
                 </table>
-            </div>
-            {% endif %}
+            </div> {% endif %}
         </div>
     </body>
 </html>
