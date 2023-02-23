@@ -5,6 +5,7 @@
         <style>
             body {
                 font-family: Arial, sans-serif;
+                margin: 0;
             }
 
             .container {
@@ -112,33 +113,45 @@
                         <input class="input-field" type="text" name="input_text" placeholder="e.g. The system shall..." required>
                         <input class="extract-button" type="submit" value="Predict">
                     </form>
-                </div> {% if results %} <div class="results-container">
+                </div>
+                {% if results %}
+                <div class="results-container">
                     <h2>Results:</h2>
-                    <span>The database must have a backup system to ensure data availability in case of failure.</span>
+                    <span>{{ req }}</span>
                     <table class="results-table">
                         <tr>
                             <th>Label</th>
                             <th>Confidence</th>
-                        </tr> {% for label, confidence in results %} <tr>
+                        </tr>
+                        {% for label, confidence in results %}
+                        <tr>
                             <td>{{ label }}</td>
                             <td>{{ confidence }}%</td>
-                        </tr> {% endfor %}
+                        </tr>
+                        {% endfor %}
                     </table>
-                </div> {% endif %}
-            </div> {% if history %} <div class="history-container">
+                </div>
+                {% endif %}
+            </div>
+            {% if history %}
+            <div class="history-container">
                 <h2>History:</h2>
                 <table class="results-table">
                     <tr>
                         <th style="width: 60%;">Requirement</th>
                         <th style="width: 15%;">Label</th>
                         <th style="width: 25%;">Confidence</th>
-                    </tr> {% for req, label, confidence in history %} <tr>
+                    </tr>
+                    {% for req, label, confidence in history %}
+                    <tr>
                         <td style="font-size: 14px;">{{ req }}</td>
                         <td style="font-size: 15px;">{{ label }}</td>
                         <td style="font-size: 15px;">{{ confidence }}</td>
-                    </tr> {% endfor %}
+                    </tr>
+                    {% endfor %}
                 </table>
-            </div> {% endif %}
+            </div>
+            {% endif %}
         </div>
     </body>
 </html>

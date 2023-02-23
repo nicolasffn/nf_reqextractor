@@ -20,7 +20,7 @@ def predict():
     history.insert(0, (req_text, labels_list, confidence_list))
 
     # Pass the prediction results and history to the HTML template
-    return render_template('index.html', results=list(zip(labels_list, confidence_list)), history=history)
+    return render_template('index.html', results=list(zip(labels_list, confidence_list)), history=history, req=req_text)
 
 if __name__ == '__main__':
     app.run(debug=True)

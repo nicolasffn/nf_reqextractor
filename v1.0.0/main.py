@@ -6,12 +6,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Embedding, LSTM, SpatialDropout1D
-from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.utils import to_categorical
 
 from sklearn.metrics import confusion_matrix, f1_score, accuracy_score, precision_recall_fscore_support, precision_score, recall_score
+
+import pickle
 
 # Download the required NLTK data and resources
 utilities.download("punkt")
@@ -21,7 +22,7 @@ utilities.download('universal_tagset')
 df = pd.read_csv('./assets/csv/requirements.csv')
 
 # Split the data into training and testing sets
-train_df, test_df = train_test_split(df, test_size=0.25)
+train_df, test_df = train_test_split(df, test_size=0.2)
 
 # Encode the labels as integers
 label_encoder = LabelEncoder()
@@ -35,8 +36,7 @@ train_sequences = tokenizer.texts_to_sequences(train_df['text'])
 test_sequences = tokenizer.texts_to_sequences(test_df['text'])
 
 # Pad the sequences to the same length
-# max_length = max([len(s) for s in train_sequences + test_sequences])
-max_length = 80
+max_length = max([len(s) for s in train_sequences + test_sequences])
 train_data = pad_sequences(train_sequences, maxlen=max_length)
 test_data = pad_sequences(test_sequences, maxlen=max_length, padding='post', truncating='post')
 
@@ -47,7 +47,8 @@ test_labels = to_categorical(test_df['label'], num_classes=len(label_encoder.cla
 use_saved_model = True
 # Define the neural network architecture
 if use_saved_model:
-    model = load_model('my_model.h5')
+        with open('model.pickle', 'rb') as f:
+            model = pickle.load(f)
 else:
     model = Sequential()
     model.add(Embedding(5000, 100, input_length=max_length)) # Word Embedding layer
@@ -56,17 +57,14 @@ else:
     model.add(Dense(len(label_encoder.classes_), activation='softmax')) # Output layer
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['binary_accuracy'])
 
-    # Use early stopping to prevent overfitting and speed up training
-    # early_stopping = EarlyStopping(patience=15, restore_best_weights=True)
-
     # Train the model
-    batch_size = 1188 # Number of samples per batch
-    epochs = 225 # Number of times to iterate over the training data
-    # model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
-    model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.25)
+    batch_size = 1000 # Number of samples per batch
+    epochs = 5 # Number of times to iterate over the training data
+    model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2)
 
     # Save the trained model
-    model.save('my_model.h5')
+    with open('model.pickle', 'wb') as f:
+        pickle.dump(model, f)
 
 # Make predictions on the test set and calculate metrics
 y_true = np.argmax(test_labels, axis=1) # Convert one-hot encoded labels to integers
