@@ -38,13 +38,13 @@ test_sequences = tokenizer.texts_to_sequences(test_df['text'])
 # Pad the sequences to the same length
 max_length = max([len(s) for s in train_sequences + test_sequences])
 train_data = pad_sequences(train_sequences, maxlen=max_length)
-test_data = pad_sequences(test_sequences, maxlen=max_length, padding='post', truncating='post')
+test_data = pad_sequences(test_sequences, maxlen=max_length)
 
 # Convert the labels to one-hot encoded arrays
 train_labels = to_categorical(train_df['label'], num_classes=len(label_encoder.classes_))
 test_labels = to_categorical(test_df['label'], num_classes=len(label_encoder.classes_))
 
-use_saved_model = True
+use_saved_model = False
 # Define the neural network architecture
 if use_saved_model:
         with open('model.pickle', 'rb') as f:
@@ -59,7 +59,7 @@ else:
 
     # Train the model
     batch_size = 1000 # Number of samples per batch
-    epochs = 5 # Number of times to iterate over the training data
+    epochs = 250 # Number of times to iterate over the training data
     model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2)
 
     # Save the trained model

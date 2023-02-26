@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
         # Train the model
         batch_size = 1188 # Number of samples per batch
-        epochs = 225 # Number of times to iterate over the training data
+        epochs = 5 # Number of times to iterate over the training data
         # model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.2, callbacks=[early_stopping])
         model.fit(train_data, train_labels, epochs=epochs, batch_size=batch_size, validation_split=0.3)
 

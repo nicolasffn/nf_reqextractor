@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.form-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-prompt {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.extract-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.extract-button:hover {
+    background-color: #333;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.results-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.results-table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.results-table tr:hover {
+    background-color: #ddd;
+}
+
+.history-container {
+    display: none;
+    color: #000;
+}
+
+.show-history-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.show-history-button-container {
+    margin-top: 10px;
+}
+
+.show-history-button:hover {
+    background-color: #333;
+}
+
+.history-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.history-table th,
+.history-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.history-table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.history-table tr:hover {
+    background-color: #ddd;
+}

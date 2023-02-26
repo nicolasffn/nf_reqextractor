@@ -2,106 +2,20 @@
 <html>
     <head>
         <title>Requirement Extractor</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script type="text/javascript">
+            function toggleHistory() {
+            var historyContainer = document.getElementById("history-container");
+            var button = document.querySelector(".show-history-button");
+            if (historyContainer.style.display === "none") {
+                historyContainer.style.display = "block";
+                button.innerHTML = "Hide History";
+            } else {
+                historyContainer.style.display = "none";
+                button.innerHTML = "Show History";
             }
-
-            .container {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                height: 100vh;
             }
-
-            .form-results-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 50%;
-                padding: 20px;
-            }
-
-            .history-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 50%;
-                padding: 20px;
-            }
-
-            .input-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 20px;
-            }
-
-            .input-prompt {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-
-            .input-field {
-                padding: 10px;
-                font-size: 18px;
-                border: 2px solid #ddd;
-                border-radius: 5px;
-                width: 400px;
-                max-width: 100%;
-                text-align: center;
-            }
-
-            .extract-button {
-                padding: 10px 20px;
-                font-size: 18px;
-                background-color: #0a0a0a;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-            .extract-button:hover {
-                background-color: #000000;
-            }
-
-            .results-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .results-table {
-                border-collapse: collapse;
-                margin-top: 20px;
-                width: 100%;
-                max-width: 800px;
-            }
-
-            .results-table th,
-            .results-table td {
-                padding: 8px;
-                text-align: center;
-                border: 1px solid #ddd;
-            }
-
-            .results-table th {
-                background-color: #0a0a0a;
-                color: white;
-            }
-
-            .results-table tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
-
-            .results-table tr:hover {
-                background-color: #ddd;
-            }
-        </style>
+        </script>
     </head>
     <body>
         <div class="container">
@@ -132,11 +46,14 @@
                     </table>
                 </div>
                 {% endif %}
+            <div class="show-history-button-container">
+                <button class="show-history-button" onclick="toggleHistory()">Show History</button>
+            </div>
             </div>
             {% if history %}
-            <div class="history-container">
+            <div class="history-container" id="history-container">
                 <h2>History:</h2>
-                <table class="results-table">
+                <table class="history-table">
                     <tr>
                         <th style="width: 60%;">Requirement</th>
                         <th style="width: 15%;">Label</th>
